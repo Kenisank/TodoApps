@@ -11,6 +11,7 @@ var connectionString = builder.Configuration.GetConnectionString("TodoConnection
 builder.Services.AddDbContext<TodoContext>(options =>
     options.UseSqlServer(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+builder.Services.AddAutoMapper(typeof(Program));
 
 builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<TodoContext>();
