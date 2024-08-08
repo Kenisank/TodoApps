@@ -12,6 +12,7 @@ namespace App_Core.Data
         }
 
         public DbSet<TodoItem> TodoItems { get; set; }
+        public DbSet<Audit> Audits { get; set; }
 
     }
 }

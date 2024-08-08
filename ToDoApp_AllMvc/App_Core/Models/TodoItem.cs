@@ -12,6 +12,7 @@ namespace App_Core.Models
 
         public string Description { get; set; }
 
+        [Display(Name="Completed")]
         public bool IsCompleted { get; set; }
 
         public DateTime CreatedDate { get; set; } = DateTime.Now;

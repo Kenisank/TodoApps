@@ -1,28 +1,42 @@
-﻿using App_Core.Data;
-using App_Core.Dtos;
+﻿using App_Core.Dal.UnitOfWork;
 using App_Core.Models;
-using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace App_Core.Controllers
 {
+
+    [Authorize]
     public class TodoController : Controller
     {
-        private readonly TodoContext _context;
-        private readonly IMapper _mapper;
 
-        public TodoController(TodoContext context, IMapper mapper)
+        //private readonly IMapper _mapper;
+
+        //private readonly UserManager<ApplicationUser> _userManager;
+        private UserManager<ApplicationUser> _userManager;
+        private readonly IUnitOfWork _unitOfWork;
+
+
+
+        public TodoController(IUnitOfWork unitOfWork, UserManager<ApplicationUser> userManager)
         {
-            _context = context;
-            _mapper = mapper;
+
+            //  _mapper = mapper;
+            _userManager = userManager;
+            _unitOfWork = unitOfWork;
+
+
         }
 
-       
+
 
         public async Task<IActionResult> Index()
         {
-            return View(await _context.TodoItems.ToListAsync());
+            var user = await GetCurrentUserAsync();
+            var items = await _unitOfWork.TodoLists.FindByCondition(t => t.UserId == user.Id).ToListAsync();
+            return View(items);
         }
 
         public IActionResult Create()
@@ -30,21 +44,31 @@ namespace App_Core.Controllers
             return View();
         }
 
-
-
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Title, Description, IsCompleted")] TodoItem toDoItem)
+        public async Task<IActionResult> Create([Bind("Id,Title,Description,IsCompleted")] TodoItem toDoItem)
         {
+            var user = await GetCurrentUserAsync();
             if (ModelState.IsValid)
             {
-                _context.Add(toDoItem);
-                await _context.SaveChangesAsync();
+                toDoItem.UserId = user.Id;
+                await _unitOfWork.TodoLists.AddAsync(toDoItem);
+
+
+                var audit = new Audit
+                {
+                    Action = "Create",
+                    Timestamp = DateTime.Now,
+                    User = User.Identity.Name,
+                    Details = $"Created ToDoItem: {toDoItem.Title}"
+                };
+                await _unitOfWork.Audits.AddAsync(audit);
+
+                _unitOfWork.SaveAsync();
                 return RedirectToAction(nameof(Index));
             }
             return View(toDoItem);
         }
-
 
         public async Task<IActionResult> Edit(int? id)
         {
@@ -53,7 +77,11 @@ namespace App_Core.Controllers
                 return NotFound();
             }
 
-            var toDoItem = await _context.TodoItems.FindAsync(id);
+            var user = await GetCurrentUserAsync();
+            var toDoItem = await _unitOfWork.TodoLists.
+                FindByCondition(t => t.Id == id && t.UserId == user.Id)
+                .FirstOrDefaultAsync();
+
             if (toDoItem == null)
             {
                 return NotFound();
@@ -61,33 +89,42 @@ namespace App_Core.Controllers
             return View(toDoItem);
         }
 
-
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, TodoItemPostPutDto _toDoItem)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,Description,IsCompleted,CreatedDate,ModifiedDate,UserId")] TodoItem toDoItem)
         {
-            var item = await _context.TodoItems.FindAsync(id);
-
-
-            if (item == null )
+            if (id != toDoItem.Id)
             {
                 return NotFound();
             }
 
-            var toDoItem = _mapper.Map<TodoItem>(_toDoItem);
-
+            var user = await GetCurrentUserAsync();
+            if (user.Id != toDoItem.UserId)
+            {
+                return Unauthorized();
+            }
 
             if (ModelState.IsValid)
             {
                 try
                 {
                     toDoItem.ModifiedDate = DateTime.Now;
-                    _context.Update(toDoItem);
-                    await _context.SaveChangesAsync();
+                    await _unitOfWork.TodoLists.UpdateAsync(toDoItem);
+
+                    var audit = new Audit
+                    {
+                        Action = "Edit",
+                        Timestamp = DateTime.Now,
+                        User = User.Identity.Name,
+                        Details = $"Edited ToDoItem: {toDoItem.Title}"
+                    };
+                    await _unitOfWork.Audits.AddAsync(audit);
+
+                    _unitOfWork.SaveAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!ToDoItemExists(toDoItem.Id))
+                    if (!TodoItemExists(toDoItem.Id))
                     {
                         return NotFound();
                     }
@@ -101,11 +138,14 @@ namespace App_Core.Controllers
             return View(toDoItem);
         }
 
-        private bool ToDoItemExists(int id)
+        private bool TodoItemExists(int id)
         {
-            return _context.TodoItems.Any(e => e.Id == id);
+            return (_unitOfWork.TodoLists.FindByCondition(e => e.Id == id).Count() > 0);
         }
-
+        private async Task<ApplicationUser> GetCurrentUserAsync()
+        {
+            return await _userManager.GetUserAsync(HttpContext.User);
+        }
 
     }
 }
