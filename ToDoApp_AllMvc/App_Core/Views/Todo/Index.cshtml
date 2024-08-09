@@ -1,4 +1,4 @@
-﻿@model IEnumerable<App_Core.Models.TodoItem>
+﻿@* @model IEnumerable<App_Core.Models.TodoItem>
 
 
 
@@ -18,7 +18,7 @@
         <tr>
             <th>Title</th>
             <th>Description</th>
-            <th>Is Completed</th>
+            <th>Completed</th>
             <th>Created Date</th>
             <th>Modified Date</th>
             <th></th>
@@ -30,7 +30,12 @@
             <tr>
                 <td>@Html.DisplayFor(modelItem => item.Title)</td>
                 <td>@Html.DisplayFor(modelItem => item.Description)</td>
-                <td>@Html.DisplayFor(modelItem => item.IsCompleted)</td>
+
+                <td style=" color: @(item.IsCompleted ? "green" : "red");">
+                    @(item.IsCompleted ? "Yes" : "No")
+                </td>
+
+
                 <td>@Html.DisplayFor(modelItem => item.CreatedDate)</td>
                 <td>@Html.DisplayFor(modelItem => item.ModifiedDate)</td>
                 <td>
@@ -39,7 +44,7 @@
             </tr>
         }
     </tbody>
-</table>
+</table> *@
 
 
 
@@ -107,3 +112,140 @@
     </tbody>
 </table>
  *@
+
+
+
+
+@model IEnumerable<App_Core.Models.TodoItem>
+
+@{
+    ViewData["Title"] = "To-Do List";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#createTodoModal">
+        Add Task
+    </button>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Completed</th>
+            <th>Created Date</th>
+            <th>Modified Date</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Title)</td>
+                <td>@Html.DisplayFor(modelItem => item.Description)</td>
+
+                <td style="color: @(item.IsCompleted ? "green" : "red");">
+                    @(item.IsCompleted ? "Yes" : "No")
+                </td>
+
+                <td>@Html.DisplayFor(modelItem => item.CreatedDate)</td>
+                <td>@Html.DisplayFor(modelItem => item.ModifiedDate)</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-secondary">Edit</a>
+                </td>
+
+               
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Create Todo Modal -->
+<div class="modal fade" id="createTodoModal" tabindex="-1" role="dialog" aria-labelledby="createTodoModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="createTodoModalLabel">Create To-Do Item</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- Form from Create View -->
+                <form asp-action="Create">
+                    <div class="form-group">
+                        <label for="Title" class="control-label">Title</label>
+                        <input id="Title" name="Title" type="text" class="form-control" />
+                        <span class="text-danger" data-valmsg-for="Title"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="Description" class="control-label">Description</label>
+                        <input id="Description" name="Description" type="text" class="form-control" />
+                        <span class="text-danger" data-valmsg-for="Description"></span>
+                    </div>
+                    <div class="form-group form-check">
+                        <input id="IsCompleted" name="IsCompleted" type="checkbox" class="form-check-input" />
+                        <label for="IsCompleted" class="form-check-label">Is Completed</label>
+                        <span class="text-danger" data-valmsg-for="IsCompleted"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="submit" value="Create" class="btn btn-primary" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- Edit Modal -->
+<div class="modal fade" id="editTodoModal" tabindex="-1" aria-labelledby="editTodoModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editTodoModalLabel">Edit To-Do Item</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="editTodoForm">
+                    <input type="hidden" id="editTodoId" name="Id" />
+                    <div class="form-group">
+                        <label for="editTitle" class="control-label">Title</label>
+                        <input type="text" id="editTitle" name="Title" class="form-control" />
+                        <span class="text-danger" id="editTitleValidation"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="editDescription" class="control-label">Description</label>
+                        <input type="text" id="editDescription" name="Description" class="form-control" />
+                        <span class="text-danger" id="editDescriptionValidation"></span>
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" id="editIsCompleted" name="IsCompleted" class="form-check-input" />
+                        <label for="editIsCompleted" class="form-check-label">Is Completed</label>
+                        <span class="text-danger" id="editIsCompletedValidation"></span>
+                    </div>
+                    <div class="form-group">
+                        <button type="button" class="btn btn-primary" id="saveEditTodo">Save</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

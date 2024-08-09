@@ -20,7 +20,7 @@ namespace App_Core.Models
         public DateTime ModifiedDate { get; set; } = DateTime.Now;
 
         [ForeignKey("ApplicationUser")]
-        public string UserId { get; set; }
+        public string UserId { get; set; } 
         public ApplicationUser User { get; set; }
     }
 }

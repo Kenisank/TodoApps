@@ -9,16 +9,19 @@ using Microsoft.AspNetCore.Identity;
 using System.Threading.Tasks;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Http;
+using AutoMapper;
 
 public class TodoControllerTests
 {
     private readonly Mock<IUnitOfWork> _mockUnitOfWork;
+    private readonly Mock<IMapper> _mapperMock;
     private readonly Mock<UserManager<ApplicationUser>> _mockUserManager;
     private readonly TodoController _controller;
 
     public TodoControllerTests()
     {
         _mockUnitOfWork = new Mock<IUnitOfWork>();
+        _mapperMock = new Mock<IMapper>();
 
         var userStore = new Mock<IUserStore<ApplicationUser>>();
         _mockUserManager = new Mock<UserManager<ApplicationUser>>(
@@ -32,8 +35,8 @@ public class TodoControllerTests
             null,
             null
         );
-
-        _controller = new TodoController(_mockUnitOfWork.Object, _mockUserManager.Object);
+        
+        _controller = new TodoController(_mockUnitOfWork.Object, _mockUserManager.Object, _mapperMock.Object);
     }
 
     private void SetUpHttpContextUser(ApplicationUser user)
@@ -52,7 +55,7 @@ public class TodoControllerTests
     public void Constructor_ShouldNotThrowException_WhenDependenciesAreNotNull()
     {
         // Arrange & Act
-        var exception = Record.Exception(() => new TodoController(_mockUnitOfWork.Object, _mockUserManager.Object));
+        var exception = Record.Exception(() => new TodoController(_mockUnitOfWork.Object, _mockUserManager.Object, _mapperMock.Object));
 
         // Assert
         Assert.Null(exception);
