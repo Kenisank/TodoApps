@@ -3,6 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\FullApp_TodoApp\\Backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0E1515BC-4B19-48AD-92D4-8C75EDB7EA0F}|..\\Backend.Test\\Backend.Test.csproj|c:\\users\\kenisank\\desktop\\todoapps\\fullapp_todoapp\\backend.test\\auditservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E1515BC-4B19-48AD-92D4-8C75EDB7EA0F}|..\\Backend.Test\\Backend.Test.csproj|c:\\users\\kenisank\\desktop\\todoapps\\fullapp_todoapp\\backend.test\\backend.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F23F9CC7-DA2B-4BEE-8A49-387305DDBBB1}|Backend.csproj|c:\\users\\kenisank\\desktop\\todoapps\\fullapp_todoapp\\backend\\controllers\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F23F9CC7-DA2B-4BEE-8A49-387305DDBBB1}|Backend.csproj|solutionrelative:controllers\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -46,7 +52,33 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "Backend.Test",
+              "DocumentMoniker": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\FullApp_TodoApp\\Backend.Test\\Backend.Test.csproj",
+              "RelativeDocumentMoniker": "..\\Backend.Test\\Backend.Test.csproj",
+              "ToolTip": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\FullApp_TodoApp\\Backend.Test\\Backend.Test.csproj",
+              "RelativeToolTip": "..\\Backend.Test\\Backend.Test.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-14T22:51:19.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuditServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\FullApp_TodoApp\\Backend.Test\\AuditServiceTests.cs",
+              "RelativeDocumentMoniker": "..\\Backend.Test\\AuditServiceTests.cs",
+              "ToolTip": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\FullApp_TodoApp\\Backend.Test\\AuditServiceTests.cs",
+              "RelativeToolTip": "..\\Backend.Test\\AuditServiceTests.cs",
+              "ViewState": "AQIAABIAAAAwAAAAAGA7wAsAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T22:47:19.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "AuditService.cs",
               "DocumentMoniker": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\FullApp_TodoApp\\Backend\\Services\\AuditService.cs",
               "RelativeDocumentMoniker": "Services\\AuditService.cs",
@@ -54,25 +86,24 @@
               "RelativeToolTip": "Services\\AuditService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T21:45:12.019Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-14T21:45:12.019Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Controller.cs",
               "DocumentMoniker": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\FullApp_TodoApp\\Backend\\Controllers\\Controller.cs",
               "RelativeDocumentMoniker": "Controllers\\Controller.cs",
               "ToolTip": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\FullApp_TodoApp\\Backend\\Controllers\\Controller.cs",
               "RelativeToolTip": "Controllers\\Controller.cs",
-              "ViewState": "AQIAAMYAAAAAPDMzMzMrwLIAAAAMAAAA",
+              "ViewState": "AQIAAL0AAADwOzMzMzMrwMwAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-14T21:32:41.987Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\FullApp_TodoApp\\Backend\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -80,12 +111,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAEIAAAAAMDMzMzMrwE4AAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T20:40:54.869Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-14T20:40:54.869Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Audit.cs",
               "DocumentMoniker": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\FullApp_TodoApp\\Backend\\Models\\Audit.cs",
               "RelativeDocumentMoniker": "Models\\Audit.cs",
@@ -93,12 +123,11 @@
               "RelativeToolTip": "Models\\Audit.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T21:43:18.962Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-14T21:43:18.962Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\FullApp_TodoApp\\Backend\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
@@ -106,12 +135,11 @@
               "RelativeToolTip": "appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-14T20:49:25.864Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-14T20:49:25.864Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "20240814205327_Initial.cs",
               "DocumentMoniker": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\FullApp_TodoApp\\Backend\\Migrations\\20240814205327_Initial.cs",
               "RelativeDocumentMoniker": "Migrations\\20240814205327_Initial.cs",
@@ -119,12 +147,11 @@
               "RelativeToolTip": "Migrations\\20240814205327_Initial.cs",
               "ViewState": "AQIAAAABAAAA0MzMzMzgvxEBAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T20:54:27.517Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-14T20:54:27.517Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\FullApp_TodoApp\\Backend\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -132,12 +159,11 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-14T20:49:22.932Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-14T20:49:22.932Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "TodoItemMappingProfile.cs",
               "DocumentMoniker": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\FullApp_TodoApp\\Backend\\AutoMapper\\Todo\\TodoItemMappingProfile.cs",
               "RelativeDocumentMoniker": "AutoMapper\\Todo\\TodoItemMappingProfile.cs",
@@ -145,8 +171,7 @@
               "RelativeToolTip": "AutoMapper\\Todo\\TodoItemMappingProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T20:41:13.046Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-14T20:41:13.046Z"
             }
           ]
         }

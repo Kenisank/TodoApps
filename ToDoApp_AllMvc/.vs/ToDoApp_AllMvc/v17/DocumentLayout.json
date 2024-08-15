@@ -3,16 +3,39 @@
   "WorkspaceRootPath": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\ToDoApp_AllMvc\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{53F03A9B-B7C5-4B54-995D-67EC16704712}|App_Core\\App_Core.csproj|c:\\users\\kenisank\\desktop\\todoapps\\todoapp_allmvc\\app_core\\views\\todo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{53F03A9B-B7C5-4B54-995D-67EC16704712}|App_Core\\App_Core.csproj|solutionrelative:app_core\\views\\todo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{53F03A9B-B7C5-4B54-995D-67EC16704712}|App_Core\\App_Core.csproj|c:\\users\\kenisank\\desktop\\todoapps\\todoapp_allmvc\\app_core\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{53F03A9B-B7C5-4B54-995D-67EC16704712}|App_Core\\App_Core.csproj|solutionrelative:app_core\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{53F03A9B-B7C5-4B54-995D-67EC16704712}|App_Core\\App_Core.csproj|c:\\users\\kenisank\\desktop\\todoapps\\todoapp_allmvc\\app_core\\shared\\general.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53F03A9B-B7C5-4B54-995D-67EC16704712}|App_Core\\App_Core.csproj|solutionrelative:app_core\\shared\\general.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{53F03A9B-B7C5-4B54-995D-67EC16704712}|App_Core\\App_Core.csproj|c:\\users\\kenisank\\desktop\\todoapps\\todoapp_allmvc\\app_core\\data\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53F03A9B-B7C5-4B54-995D-67EC16704712}|App_Core\\App_Core.csproj|solutionrelative:app_core\\data\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53F03A9B-B7C5-4B54-995D-67EC16704712}|App_Core\\App_Core.csproj|c:\\users\\kenisank\\desktop\\todoapps\\todoapp_allmvc\\app_core\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53F03A9B-B7C5-4B54-995D-67EC16704712}|App_Core\\App_Core.csproj|solutionrelative:app_core\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53F03A9B-B7C5-4B54-995D-67EC16704712}|App_Core\\App_Core.csproj|c:\\users\\kenisank\\desktop\\todoapps\\todoapp_allmvc\\app_core\\models\\audit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53F03A9B-B7C5-4B54-995D-67EC16704712}|App_Core\\App_Core.csproj|solutionrelative:app_core\\models\\audit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53F03A9B-B7C5-4B54-995D-67EC16704712}|App_Core\\App_Core.csproj|c:\\users\\kenisank\\desktop\\todoapps\\todoapp_allmvc\\app_core\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53F03A9B-B7C5-4B54-995D-67EC16704712}|App_Core\\App_Core.csproj|solutionrelative:app_core\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53F03A9B-B7C5-4B54-995D-67EC16704712}|App_Core\\App_Core.csproj|c:\\users\\kenisank\\desktop\\todoapps\\todoapp_allmvc\\app_core\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53F03A9B-B7C5-4B54-995D-67EC16704712}|App_Core\\App_Core.csproj|solutionrelative:app_core\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53F03A9B-B7C5-4B54-995D-67EC16704712}|App_Core\\App_Core.csproj|c:\\users\\kenisank\\desktop\\todoapps\\todoapp_allmvc\\app_core\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53F03A9B-B7C5-4B54-995D-67EC16704712}|App_Core\\App_Core.csproj|solutionrelative:app_core\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kenisank\\source\\repos\\MOFrankInventory\\Api\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53F03A9B-B7C5-4B54-995D-67EC16704712}|App_Core\\App_Core.csproj|c:\\users\\kenisank\\desktop\\todoapps\\todoapp_allmvc\\app_core\\views\\todo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{53F03A9B-B7C5-4B54-995D-67EC16704712}|App_Core\\App_Core.csproj|solutionrelative:app_core\\views\\todo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{53F03A9B-B7C5-4B54-995D-67EC16704712}|App_Core\\App_Core.csproj|c:\\users\\kenisank\\desktop\\todoapps\\todoapp_allmvc\\app_core\\views\\todo\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -21,10 +44,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{53F03A9B-B7C5-4B54-995D-67EC16704712}|App_Core\\App_Core.csproj|c:\\users\\kenisank\\desktop\\todoapps\\todoapp_allmvc\\app_core\\views\\todo\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{53F03A9B-B7C5-4B54-995D-67EC16704712}|App_Core\\App_Core.csproj|solutionrelative:app_core\\views\\todo\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53F03A9B-B7C5-4B54-995D-67EC16704712}|App_Core\\App_Core.csproj|c:\\users\\kenisank\\desktop\\todoapps\\todoapp_allmvc\\app_core\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53F03A9B-B7C5-4B54-995D-67EC16704712}|App_Core\\App_Core.csproj|solutionrelative:app_core\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{53F03A9B-B7C5-4B54-995D-67EC16704712}|App_Core\\App_Core.csproj|c:\\users\\kenisank\\desktop\\todoapps\\todoapp_allmvc\\app_core\\dal\\repostories\\todorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -48,13 +67,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kenisank\\source\\repos\\MOFrankInventory\\Dal\\Repositories\\AccountRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53F03A9B-B7C5-4B54-995D-67EC16704712}|App_Core\\App_Core.csproj|c:\\users\\kenisank\\desktop\\todoapps\\todoapp_allmvc\\app_core\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53F03A9B-B7C5-4B54-995D-67EC16704712}|App_Core\\App_Core.csproj|solutionrelative:app_core\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kenisank\\source\\repos\\MOFrankInventory\\Api\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{53F03A9B-B7C5-4B54-995D-67EC16704712}|App_Core\\App_Core.csproj|c:\\users\\kenisank\\desktop\\todoapps\\todoapp_allmvc\\app_core\\dal\\repostories\\interfaces\\itodorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -98,50 +110,96 @@
       "DocumentGroups": [
         {
           "DockedWidth": 299,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "General.cs",
-              "DocumentMoniker": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\ToDoApp_AllMvc\\App_Core\\Shared\\General.cs",
-              "RelativeDocumentMoniker": "App_Core\\Shared\\General.cs",
-              "ToolTip": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\ToDoApp_AllMvc\\App_Core\\Shared\\General.cs",
-              "RelativeToolTip": "App_Core\\Shared\\General.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAoAAAA",
+              "DocumentIndex": 3,
+              "Title": "Audit.cs",
+              "DocumentMoniker": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\ToDoApp_AllMvc\\App_Core\\Models\\Audit.cs",
+              "RelativeDocumentMoniker": "App_Core\\Models\\Audit.cs",
+              "ToolTip": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\ToDoApp_AllMvc\\App_Core\\Models\\Audit.cs",
+              "RelativeToolTip": "App_Core\\Models\\Audit.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T22:14:42.283Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-14T19:48:05.019Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\ToDoApp_AllMvc\\App_Core\\Views\\Todo\\Index.cshtml",
-              "RelativeDocumentMoniker": "App_Core\\Views\\Todo\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\ToDoApp_AllMvc\\App_Core\\Views\\Todo\\Index.cshtml",
-              "RelativeToolTip": "App_Core\\Views\\Todo\\Index.cshtml",
-              "ViewState": "AQIAAJwAAADsZmZmZmYkwKEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-08T21:15:58.756Z",
-              "EditorCaption": ""
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\ToDoApp_AllMvc\\App_Core\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "App_Core\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\ToDoApp_AllMvc\\App_Core\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "App_Core\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAoAAACAZWZmZmYowCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T19:45:52.035Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "TodoContext.cs",
+              "DocumentMoniker": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\ToDoApp_AllMvc\\App_Core\\Data\\TodoContext.cs",
+              "RelativeDocumentMoniker": "App_Core\\Data\\TodoContext.cs",
+              "ToolTip": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\ToDoApp_AllMvc\\App_Core\\Data\\TodoContext.cs",
+              "RelativeToolTip": "App_Core\\Data\\TodoContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T15:38:43.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "TodoController.cs",
               "DocumentMoniker": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\ToDoApp_AllMvc\\App_Core\\Controllers\\TodoController.cs",
               "RelativeDocumentMoniker": "App_Core\\Controllers\\TodoController.cs",
               "ToolTip": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\ToDoApp_AllMvc\\App_Core\\Controllers\\TodoController.cs",
               "RelativeToolTip": "App_Core\\Controllers\\TodoController.cs",
-              "ViewState": "AQIAADwAAAAAZ2ZmZuYdwEMAAAAtAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-08T13:52:48.713Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 4,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\ToDoApp_AllMvc\\App_Core\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "App_Core\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\ToDoApp_AllMvc\\App_Core\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "App_Core\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T19:45:27.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\ToDoApp_AllMvc\\App_Core\\Views\\Todo\\Index.cshtml",
+              "RelativeDocumentMoniker": "App_Core\\Views\\Todo\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\ToDoApp_AllMvc\\App_Core\\Views\\Todo\\Index.cshtml",
+              "RelativeToolTip": "App_Core\\Views\\Todo\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T21:15:58.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\ToDoApp_AllMvc\\App_Core\\Program.cs",
+              "RelativeDocumentMoniker": "App_Core\\Program.cs",
+              "ToolTip": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\ToDoApp_AllMvc\\App_Core\\Program.cs",
+              "RelativeToolTip": "App_Core\\Program.cs",
+              "ViewState": "AQIAAAMAAABAMjMzMzMbwBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T15:22:22.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Kenisank\\source\\repos\\MOFrankInventory\\Api\\Program.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\MOFrankInventory\\Api\\Program.cs",
@@ -154,18 +212,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\ToDoApp_AllMvc\\App_Core\\Program.cs",
-              "RelativeDocumentMoniker": "App_Core\\Program.cs",
-              "ToolTip": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\ToDoApp_AllMvc\\App_Core\\Program.cs",
-              "RelativeToolTip": "App_Core\\Program.cs",
-              "ViewState": "AQIAAA8AAACgy8zMzMwgwBsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T15:22:22.381Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\ToDoApp_AllMvc\\App_Core\\Dal\\UnitOfWork\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "App_Core\\Dal\\UnitOfWork\\IUnitOfWork.cs",
@@ -173,12 +219,11 @@
               "RelativeToolTip": "App_Core\\Dal\\UnitOfWork\\IUnitOfWork.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T14:22:26.687Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T14:22:26.687Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "TodoRepository.cs",
               "DocumentMoniker": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\ToDoApp_AllMvc\\App_Core\\Dal\\Repostories\\TodoRepository.cs",
               "RelativeDocumentMoniker": "App_Core\\Dal\\Repostories\\TodoRepository.cs",
@@ -186,25 +231,23 @@
               "RelativeToolTip": "App_Core\\Dal\\Repostories\\TodoRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T11:53:41.868Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T11:53:41.868Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "TodoItem.cs",
               "DocumentMoniker": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\ToDoApp_AllMvc\\App_Core\\Models\\TodoItem.cs",
               "RelativeDocumentMoniker": "App_Core\\Models\\TodoItem.cs",
               "ToolTip": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\ToDoApp_AllMvc\\App_Core\\Models\\TodoItem.cs",
               "RelativeToolTip": "App_Core\\Models\\TodoItem.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAABAPQ4AAAAHAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T14:02:09.779Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T14:02:09.779Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\ToDoApp_AllMvc\\App_Core\\Views\\Todo\\Create.cshtml",
               "RelativeDocumentMoniker": "App_Core\\Views\\Todo\\Create.cshtml",
@@ -212,12 +255,11 @@
               "RelativeToolTip": "App_Core\\Views\\Todo\\Create.cshtml",
               "ViewState": "AQIAABIAAAAAAAAAAAAUwCsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-08T20:28:36.689Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T20:28:36.689Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\ToDoApp_AllMvc\\App_Core\\Views\\Todo\\Edit.cshtml",
               "RelativeDocumentMoniker": "App_Core\\Views\\Todo\\Edit.cshtml",
@@ -225,12 +267,11 @@
               "RelativeToolTip": "App_Core\\Views\\Todo\\Edit.cshtml",
               "ViewState": "AQIAAB8AAAAAAAAAAAAAwCwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-08T20:29:20.73Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T20:29:20.73Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "TodoControllerTests.cs",
               "DocumentMoniker": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\ToDoApp_AllMvc\\App_Test\\TodoControllerTests.cs",
               "RelativeDocumentMoniker": "App_Test\\TodoControllerTests.cs",
@@ -242,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "TodoItemPostPutDto.cs",
               "DocumentMoniker": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\ToDoApp_AllMvc\\App_Core\\Dtos\\TodoItemPostPutDto.cs",
               "RelativeDocumentMoniker": "App_Core\\Dtos\\TodoItemPostPutDto.cs",
@@ -254,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "20240808180858_update.cs",
               "DocumentMoniker": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\ToDoApp_AllMvc\\App_Core\\Data\\Migrations\\20240808180858_update.cs",
               "RelativeDocumentMoniker": "App_Core\\Data\\Migrations\\20240808180858_update.cs",
@@ -266,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "AccountRepository.cs",
               "DocumentMoniker": "C:\\Users\\Kenisank\\source\\repos\\MOFrankInventory\\Dal\\Repositories\\AccountRepository.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\MOFrankInventory\\Dal\\Repositories\\AccountRepository.cs",
@@ -278,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "ITodoRepository.cs",
               "DocumentMoniker": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\ToDoApp_AllMvc\\App_Core\\Dal\\Repostories\\Interfaces\\ITodoRepository.cs",
               "RelativeDocumentMoniker": "App_Core\\Dal\\Repostories\\Interfaces\\ITodoRepository.cs",
@@ -290,7 +331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\ToDoApp_AllMvc\\App_Core\\Dal\\Repostories\\Repository.cs",
               "RelativeDocumentMoniker": "App_Core\\Dal\\Repostories\\Repository.cs",
@@ -302,7 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "ControllerTestHelpers.cs",
               "DocumentMoniker": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\ToDoApp_AllMvc\\App_Test\\ControllerTestHelpers.cs",
               "RelativeDocumentMoniker": "App_Test\\ControllerTestHelpers.cs",
@@ -314,7 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "UnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\ToDoApp_AllMvc\\App_Core\\Dal\\UnitOfWork\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "App_Core\\Dal\\UnitOfWork\\UnitOfWork.cs",
@@ -326,7 +367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\ToDoApp_AllMvc\\App_Core\\Dal\\Repostories\\Interfaces\\IRepository.cs",
               "RelativeDocumentMoniker": "App_Core\\Dal\\Repostories\\Interfaces\\IRepository.cs",
@@ -338,7 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\Kenisank\\source\\repos\\MOFrankInventory\\Dal\\Repositories\\Repository.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\MOFrankInventory\\Dal\\Repositories\\Repository.cs",
@@ -350,7 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "RepositoryAsync.cs",
               "DocumentMoniker": "C:\\Users\\Kenisank\\source\\repos\\MOFrankInventory\\Dal\\Repositories\\RepositoryAsync.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\MOFrankInventory\\Dal\\Repositories\\RepositoryAsync.cs",
@@ -362,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "AuditRepository.cs",
               "DocumentMoniker": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\ToDoApp_AllMvc\\App_Core\\Dal\\Repostories\\AuditRepository.cs",
               "RelativeDocumentMoniker": "App_Core\\Dal\\Repostories\\AuditRepository.cs",
@@ -374,7 +415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "IAuditRepository.cs",
               "DocumentMoniker": "C:\\Users\\Kenisank\\Desktop\\ToDoApps\\ToDoApp_AllMvc\\App_Core\\Dal\\Repostories\\Interfaces\\IAuditRepository.cs",
               "RelativeDocumentMoniker": "App_Core\\Dal\\Repostories\\Interfaces\\IAuditRepository.cs",
