@@ -2,11 +2,7 @@ import React from "react";
 import { Navigate, useLocation, Outlet } from "react-router-dom";
 import { useAuth } from "../contexts/AuthContent";
 
-interface PrivateRouteProps {
-  component: React.ComponentType<any>;
-}
-
-const PrivateRoute: React.FC<PrivateRouteProps> = ({ component: Component }) => {
+const PrivateRoute: React.FC = () => {
   const { userToken } = useAuth();
   const location = useLocation();
 
@@ -14,7 +10,7 @@ const PrivateRoute: React.FC<PrivateRouteProps> = ({ component: Component }) => 
     return <Navigate to="/login" state={{ from: location }} replace />;
   }
 
-  return <Component />;
+  return <Outlet />; // Render the child routes if authenticated
 };
 
 export default PrivateRoute;
