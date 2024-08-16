@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { List, ListItem, ListItemText, Divider, CircularProgress, Typography, Box, Button } from "@mui/material";
 import todoService from "../services/todo.service";
 import { useAuth } from "../contexts/auth.context";
+import { useNavigate } from "react-router-dom"; // Import useNavigate
 import "../styles/todo.style.css"; 
 
 // Define an interface for Todo items
@@ -16,6 +17,7 @@ const Todo = () => {
   const [todos, setTodos] = useState<TodoItem[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
+  const navigate = useNavigate(); // Initialize useNavigate
 
   useEffect(() => {
     const fetchTodos = async () => {
@@ -34,6 +36,11 @@ const Todo = () => {
     fetchTodos();
   }, []);
 
+  const handleLogout = () => {
+    logout();
+    navigate("/login"); // Redirect to login page
+  };
+
   if (loading) return <CircularProgress />;
   if (error) return <Typography color="error">{error}</Typography>;
 
@@ -46,7 +53,7 @@ const Todo = () => {
         <Button
           variant="contained"
           color="primary"
-          onClick={logout}
+          onClick={handleLogout}
         >
           Logout
         </Button>
