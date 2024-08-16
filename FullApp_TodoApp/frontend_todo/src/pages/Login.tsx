@@ -13,6 +13,7 @@ import {
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../contexts/auth.context";
+import log from "../services/logger.service"; // Import the logger
 
 const Login = () => {
   const [username, setEmail] = useState("");
@@ -23,10 +24,13 @@ const Login = () => {
 
   const handleLogin = async () => {
     setError(null); // Clear any previous errors
+    log.info("Attempting to log in", { username });
     try {
       await login(username, password);
+      log.info("Login successful", { username });
       navigate("/todo"); 
     } catch (err) {
+      log.error("Login failed", { username, error: err });
       setError("Failed to login. Please check your credentials."); 
     }
   };

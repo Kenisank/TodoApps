@@ -14,32 +14,33 @@ import {
 import { LockOutlined } from "@mui/icons-material";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../contexts/auth.context";
+import log from "../services/logger.service"; // Import the logger
 
 const Register = () => {
-    debugger;
   const [username, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   const [error, setError] = useState<string | null>(null);
-  debugger;
   const { register } = useAuth();
   const navigate = useNavigate();
 
   const handleRegister = async () => {
     setError(null);
     if (password !== confirmPassword) {
+      log.warn("Password mismatch", { username });
       setError("Passwords do not match");
       return;
     }
+    log.info("Attempting to register", { username, email });
     try {
       await register(username, email, password);
+      log.info("Registration successful", { username, email });
       navigate("/todo");
     } catch (err) {
-        debugger;
-        var re: any = err;
-        setError(`Failed to register. Please try again.\n${re.response.data}`);
-      }
+      log.error("Registration failed", { username, email, error: err });
+      setError("Failed to register. Please try again.");
+    }
   };
 
   return (
