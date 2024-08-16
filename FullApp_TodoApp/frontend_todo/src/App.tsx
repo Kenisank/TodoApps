@@ -29,9 +29,8 @@ function App() {
     <>
     <Routes>
       
-     
-      <Route path="/" element={<PrivateRoute component={Todo} />} />
-
+      <Route path='/' element={<Todo />} />
+      
       <Route path='/register' element={<Register />} />
       <Route path='/login' element={<Login />} />
             <Route path="/todo" element={<PrivateRoute component={Todo} />} />
