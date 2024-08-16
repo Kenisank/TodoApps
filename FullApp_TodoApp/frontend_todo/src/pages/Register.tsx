@@ -9,21 +9,37 @@ import {
   Button,
   Grid,
   Link,
+  Alert,
 } from "@mui/material";
 import { LockOutlined } from "@mui/icons-material";
+import { useNavigate } from "react-router-dom";
+import { useAuth } from "../contexts/AuthContext";
 
 const Register = () => {
-  const [name, setName] = useState("");
+    debugger;
+  const [username, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
+  const [error, setError] = useState<string | null>(null);
+  debugger;
+  const { register } = useAuth();
+  const navigate = useNavigate();
 
-  const handleRegister = () => {
-    // Implement registration logic here
-    console.log("Name:", name);
-    console.log("Email:", email);
-    console.log("Password:", password);
-    console.log("Confirm Password:", confirmPassword);
+  const handleRegister = async () => {
+    setError(null);
+    if (password !== confirmPassword) {
+      setError("Passwords do not match");
+      return;
+    }
+    try {
+      await register(username, email, password);
+      navigate("/todo");
+    } catch (err) {
+        debugger;
+        var re: any = err;
+        setError(`Failed to register. Please try again.\n${re.response.data}`);
+      }
   };
 
   return (
@@ -52,17 +68,18 @@ const Register = () => {
           noValidate
           sx={{ mt: 1 }}
         >
+          {error && <Alert severity="error">{error}</Alert>} {/* Display error message */}
           <TextField
             variant="outlined"
             margin="normal"
             required
             fullWidth
-            id="name"
-            label="Name"
-            name="name"
-            autoComplete="name"
+            id="username"
+            label="Username"
+            name="username"
+            autoComplete="username"
             autoFocus
-            value={name}
+            value={username}
             onChange={(e) => setName(e.target.value)}
           />
           <TextField
@@ -113,7 +130,7 @@ const Register = () => {
           </Button>
           <Grid container justifyContent="flex-end">
             <Grid item>
-              <Link href="#" variant="body2">
+              <Link href="/login" variant="body2">
                 Already have an account? Sign in
               </Link>
             </Grid>

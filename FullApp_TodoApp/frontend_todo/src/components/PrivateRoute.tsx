@@ -1,6 +1,6 @@
 import React from "react";
 import { Navigate, useLocation, Outlet } from "react-router-dom";
-import { useAuth } from "../contexts/AuthContent";
+import { useAuth } from "../contexts/AuthContext";
 
 const PrivateRoute: React.FC = () => {
   const { userToken } = useAuth();

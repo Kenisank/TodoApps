@@ -12,10 +12,10 @@ import {
 } from "@mui/material";
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { useAuth } from "../contexts/AuthContent";
+import { useAuth } from "../contexts/AuthContext";
 
 const Login = () => {
-  const [email, setEmail] = useState("");
+  const [username, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState<string | null>(null);
   const { login } = useAuth();
@@ -24,10 +24,10 @@ const Login = () => {
   const handleLogin = async () => {
     setError(null); // Clear any previous errors
     try {
-      await login(email, password);
-      navigate("/dashboard"); // Redirect to the dashboard or any protected route
+      await login(username, password);
+      navigate("/todo"); 
     } catch (err) {
-      setError("Failed to login. Please check your credentials."); // Set an appropriate error message
+      setError("Failed to login. Please check your credentials."); 
     }
   };
 
@@ -52,11 +52,11 @@ const Login = () => {
             margin="normal"
             required
             fullWidth
-            id="email"
-            label="Email Address"
-            name="email"
+            id="username"
+            label="Username"
+            name="username"
             autoFocus
-            value={email}
+            value={username}
             onChange={(e) => setEmail(e.target.value)}
           />
           <TextField

@@ -1,10 +1,25 @@
 import axios from "axios";
 
+
 const API_URL = process.env.REACT_APP_API_URL;
 
-const login = async (email: string, password: string) => {
+
+const register = async (username: string, email: string, password: string) => {
+  
+  const response = await axios.post(`${API_URL}auth/register`, { username, email, password });
+ 
+  if (response.data.token) {
     debugger;
-  const response = await axios.post(`${API_URL}auth/login`, { email, password });
+    localStorage.setItem("userToken", response.data.token);
+  }
+  debugger;
+  return response.data;
+};
+
+const login = async (username: string, password: string) => {
+    debugger;
+  const response = await axios.post(`${API_URL}auth/login`, { username, password });
+
   if (response.data.token) {
     debugger;
     localStorage.setItem("userToken", response.data.token);
@@ -22,6 +37,7 @@ const getCurrentUser = () => {
 };
 
 export default {
+  register,
   login,
   logout,
   getCurrentUser,

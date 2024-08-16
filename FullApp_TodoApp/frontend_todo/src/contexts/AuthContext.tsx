@@ -4,11 +4,12 @@ import authService from "../services/auth.service";
 interface AuthContextProps {
   userToken: string | null;
   login: (email: string, password: string) => Promise<void>;
+  register: (name: string, email: string, password: string) => Promise<void>;
   logout: () => void;
 }
 
 interface AuthProviderProps {
-  children: ReactNode;  // Explicitly define the type for children
+  children: ReactNode;
 }
 
 const AuthContext = createContext<AuthContextProps | undefined>(undefined);
@@ -21,13 +22,20 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
     setUserToken(response.token);
   };
 
+ 
+  const register = async (username: string, email: string, password: string) => {
+ 
+    const response = await authService.register(username, email, password);
+    setUserToken(response.token);
+  };
+
   const logout = () => {
     authService.logout();
     setUserToken(null);
   };
 
   return (
-    <AuthContext.Provider value={{ userToken, login, logout }}>
+    <AuthContext.Provider value={{ userToken, login, register, logout }}>
       {children}
     </AuthContext.Provider>
   );
