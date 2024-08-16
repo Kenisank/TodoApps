@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { LockOutlined } from "@mui/icons-material";
 import {
   Container,
   CssBaseline,
@@ -8,90 +8,79 @@ import {
   TextField,
   Button,
   Grid,
-  Link,
+  Alert,
 } from "@mui/material";
-import { LockOutlined } from "@mui/icons-material";
+import { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import { useAuth } from "../contexts/AuthContent";
 
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [error, setError] = useState<string | null>(null);
+  const { login } = useAuth();
+  const navigate = useNavigate();
 
-  const handleLogin = () => {
-    // Implement login logic here
-    console.log("Email:", email);
-    console.log("Password:", password);
+  const handleLogin = async () => {
+    setError(null); // Clear any previous errors
+    try {
+      await login(email, password);
+      navigate("/dashboard"); // Redirect to the dashboard or any protected route
+    } catch (err) {
+      setError("Failed to login. Please check your credentials."); // Set an appropriate error message
+    }
   };
 
   return (
-    <Container component="main" maxWidth="xs">
+    <Container maxWidth="xs">
       <CssBaseline />
       <Box
         sx={{
-          marginTop: 8,
+          mt: 20,
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
         }}
       >
-        <Avatar sx={{ m: 1, bgcolor: "secondary.main" }}>
+        <Avatar sx={{ m: 1, bgcolor: "primary.light" }}>
           <LockOutlined />
         </Avatar>
-        <Typography component="h1" variant="h5">
-          Sign in
-        </Typography>
-        <Box
-          component="form"
-          onSubmit={(e) => {
-            e.preventDefault();
-            handleLogin();
-          }}
-          noValidate
-          sx={{ mt: 1 }}
-        >
+        <Typography variant="h5">Login</Typography>
+        <Box sx={{ mt: 1 }}>
+          {error && <Alert severity="error">{error}</Alert>} {/* Display error message */}
           <TextField
-            variant="outlined"
             margin="normal"
             required
             fullWidth
             id="email"
             label="Email Address"
             name="email"
-            autoComplete="email"
             autoFocus
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
           <TextField
-            variant="outlined"
             margin="normal"
             required
             fullWidth
+            id="password"
             name="password"
             label="Password"
             type="password"
-            id="password"
-            autoComplete="current-password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
           <Button
-            type="submit"
             fullWidth
             variant="contained"
             sx={{ mt: 3, mb: 2 }}
+            onClick={handleLogin}
           >
-            Sign In
+            Login
           </Button>
-          <Grid container>
-            <Grid item xs>
-              <Link href="#" variant="body2">
-                Forgot password?
-              </Link>
-            </Grid>
+          <Grid container justifyContent={"flex-end"}>
             <Grid item>
-              <Link href="#" variant="body2">
-                {"Don't have an account? Sign Up"}
-              </Link>
+              <Link to="/register">Don't have an account? Register</Link>
             </Grid>
           </Grid>
         </Box>

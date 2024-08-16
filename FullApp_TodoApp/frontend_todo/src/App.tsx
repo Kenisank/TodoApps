@@ -5,6 +5,7 @@ import { Routes, Route } from 'react-router-dom';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import Todo from './pages/Todo';
+import PrivateRoute from './components/PrivateRoute';
 
 function App() {
   return (
@@ -27,10 +28,14 @@ function App() {
 
     <>
     <Routes>
-      <Route path='/' element={<Todo />} />
+      
+     
+      <Route path="/" element={<PrivateRoute component={Todo} />} />
+
       <Route path='/register' element={<Register />} />
       <Route path='/login' element={<Login />} />
-      <Route path='/todo' element={<Todo />} />
+            <Route path="/todo" element={<PrivateRoute component={Todo} />} />
+      
 
 
     </Routes>

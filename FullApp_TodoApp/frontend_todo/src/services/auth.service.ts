@@ -3,10 +3,13 @@ import axios from "axios";
 const API_URL = process.env.REACT_APP_API_URL;
 
 const login = async (email: string, password: string) => {
-  const response = await axios.post(`${API_URL}login`, { email, password });
+    debugger;
+  const response = await axios.post(`${API_URL}auth/login`, { email, password });
   if (response.data.token) {
+    debugger;
     localStorage.setItem("userToken", response.data.token);
   }
+  debugger;
   return response.data;
 };
 
