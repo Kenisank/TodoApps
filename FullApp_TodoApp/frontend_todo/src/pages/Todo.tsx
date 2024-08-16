@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { List, ListItem, ListItemText, Divider, CircularProgress, Typography, Box } from "@mui/material";
+import { List, ListItem, ListItemText, Divider, CircularProgress, Typography, Box, Button } from "@mui/material";
 import todoService from "../services/todo.service";
+import { useAuth } from "../contexts/auth.context";
+import "../styles/todo.style.css"; 
 
 // Define an interface for Todo items
 interface TodoItem {
@@ -10,6 +12,7 @@ interface TodoItem {
 }
 
 const Todo = () => {
+  const { logout } = useAuth();
   const [todos, setTodos] = useState<TodoItem[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
@@ -17,17 +20,12 @@ const Todo = () => {
   useEffect(() => {
     const fetchTodos = async () => {
       try {
-        // Fetch todos from the API
         const data = await todoService.getTodos();
-
-        // Add a demo todo item
         const demoTodo: TodoItem = { id: 1, title: "Demo Todo Item", isCompleted: false };
-        
-        // Set todos state with fetched data and demo item
         setTodos([...data, demoTodo]);
       } catch (error) {
         setError("Failed to fetch todos. Please try again later.");
-        console.error("Error fetching todos:", error); // Log the error for debugging
+        console.error("Error fetching todos:", error);
       } finally {
         setLoading(false);
       }
@@ -41,18 +39,18 @@ const Todo = () => {
 
   return (
     <Box sx={{ padding: 2 }}>
-      <Typography
-        variant="h4"
-        component="h1"
-        sx={{
-          color: "#3f51b5", // Primary color
-          fontWeight: "bold",
-          marginBottom: 2,
-          textAlign: "center", // Center align the text
-        }}
-      >
-        To-do List
-      </Typography>
+      <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 2 }}>
+        <Typography variant="h4" component="h1" sx={{ color: '#3f51b5', fontWeight: 'bold' }}>
+          To-do List
+        </Typography>
+        <Button
+          variant="contained"
+          color="primary"
+          onClick={logout}
+        >
+          Logout
+        </Button>
+      </Box>
       <List>
         {todos.map((todo) => (
           <div key={todo.id}>

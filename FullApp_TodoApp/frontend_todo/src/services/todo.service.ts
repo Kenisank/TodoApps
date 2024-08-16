@@ -5,6 +5,7 @@ const API_URL = process.env.REACT_APP_API_URL;
 
 // Get the stored authentication token
 const getAuthToken = () => {
+    debugger;
   return localStorage.getItem("userToken");
 };
 
