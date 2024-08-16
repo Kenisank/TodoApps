@@ -1,6 +1,6 @@
 import axios from "axios";
 
-// Ensure that the API URL is correctly set in environment variables
+
 const API_URL = process.env.REACT_APP_API_URL;
 
 // Get the stored authentication token
