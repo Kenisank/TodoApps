@@ -62,6 +62,18 @@ const updateTodo = async (id: number, updatedTodo: { title: string; isCompleted:
   }
 };
 
+const updateCompletedStatus = async (id: number) => {
+  try {
+    debugger;
+    const response = await apiClient.patch(`todos/${id}`);
+    return response.data;
+  } catch (error) {
+    console.error("Failed to update todo", error);
+    throw error;
+  }
+};
+
+
 const deleteTodo = async (id: number) => {
   try {
     const response = await apiClient.delete(`todos/${id}`);
@@ -77,4 +89,5 @@ export default {
   addTodo,
   updateTodo,
   deleteTodo,
+  updateCompletedStatus
 };

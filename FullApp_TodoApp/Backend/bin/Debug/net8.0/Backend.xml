@@ -21,5 +21,17 @@
         <member name="M:Backend.Migrations.Initial.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
         </member>
+        <member name="T:Backend.Migrations.MakeDescriptionNullable">
+            <inheritdoc />
+        </member>
+        <member name="M:Backend.Migrations.MakeDescriptionNullable.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Backend.Migrations.MakeDescriptionNullable.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Backend.Migrations.MakeDescriptionNullable.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
     </members>
 </doc>

@@ -1,0 +1,1717 @@
+2024-08-16 12:03:31.279 +01:00 [INF] User profile is available. Using 'C:\Users\Kenisank\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-16 12:03:31.830 +01:00 [INF] Now listening on: https://localhost:7220
+2024-08-16 12:03:31.832 +01:00 [INF] Now listening on: http://localhost:5011
+2024-08-16 12:03:31.836 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-16 12:03:31.837 +01:00 [INF] Hosting environment: Development
+2024-08-16 12:03:31.838 +01:00 [INF] Content root path: C:\Users\Kenisank\Desktop\ToDoApps\FullApp_TodoApp\Backend
+2024-08-16 12:03:33.161 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-08-16 12:03:33.703 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 548.0754ms
+2024-08-16 12:03:34.371 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-16 12:03:34.371 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-08-16 12:03:34.388 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 16.9653ms
+2024-08-16 12:03:34.502 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 130.8619ms
+2024-08-16 12:03:35.096 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-08-16 12:03:35.120 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-08-16 12:03:35.401 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 304.6568ms
+2024-08-16 12:46:35.208 +01:00 [INF] User profile is available. Using 'C:\Users\Kenisank\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-16 12:46:35.781 +01:00 [INF] Now listening on: https://localhost:7220
+2024-08-16 12:46:35.782 +01:00 [INF] Now listening on: http://localhost:5011
+2024-08-16 12:46:35.785 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-16 12:46:35.787 +01:00 [INF] Hosting environment: Development
+2024-08-16 12:46:35.788 +01:00 [INF] Content root path: C:\Users\Kenisank\Desktop\ToDoApps\FullApp_TodoApp\Backend
+2024-08-16 12:46:36.319 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-08-16 12:46:36.837 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 528.0456ms
+2024-08-16 12:46:37.469 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-16 12:46:37.469 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-08-16 12:46:37.500 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 30.7039ms
+2024-08-16 12:46:37.573 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 104.2ms
+2024-08-16 12:46:38.249 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-08-16 12:46:38.259 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-08-16 12:46:38.586 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 337.3946ms
+2024-08-16 13:15:15.521 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/auth/register - null null
+2024-08-16 13:15:15.639 +01:00 [INF] CORS policy execution failed.
+2024-08-16 13:15:15.640 +01:00 [INF] Request origin http://localhost:3000 does not have permission to access the resource.
+2024-08-16 13:15:15.642 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/auth/register - 204 null null 121.2855ms
+2024-08-16 13:17:10.041 +01:00 [INF] User profile is available. Using 'C:\Users\Kenisank\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-16 13:17:10.509 +01:00 [INF] Now listening on: https://localhost:7220
+2024-08-16 13:17:10.526 +01:00 [INF] Now listening on: http://localhost:5011
+2024-08-16 13:17:10.529 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-16 13:17:10.530 +01:00 [INF] Hosting environment: Development
+2024-08-16 13:17:10.531 +01:00 [INF] Content root path: C:\Users\Kenisank\Desktop\ToDoApps\FullApp_TodoApp\Backend
+2024-08-16 13:17:10.975 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-08-16 13:17:11.402 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 433.7931ms
+2024-08-16 13:17:12.033 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-08-16 13:17:12.033 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-16 13:17:12.050 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 16.7805ms
+2024-08-16 13:17:12.145 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 112.3478ms
+2024-08-16 13:17:12.799 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-08-16 13:17:12.810 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-08-16 13:17:13.116 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 317.1992ms
+2024-08-16 13:18:11.229 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/auth/register - null null
+2024-08-16 13:18:11.246 +01:00 [INF] CORS policy execution successful.
+2024-08-16 13:18:11.248 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/auth/register - 204 null null 18.7819ms
+2024-08-16 13:18:11.293 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7220/api/auth/register - application/json 92
+2024-08-16 13:18:11.298 +01:00 [INF] CORS policy execution successful.
+2024-08-16 13:18:11.369 +01:00 [INF] Executing endpoint 'HTTP: POST /api/auth/register'
+2024-08-16 13:18:11.668 +01:00 [INF] User registration attempt for test
+2024-08-16 13:18:11.680 +01:00 [WRN] User registration failed for test. Errors: Passwords must have at least one digit ('0'-'9').
+2024-08-16 13:18:13.117 +01:00 [INF] Executed DbCommand (77ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 13:18:13.183 +01:00 [INF] Setting HTTP status code 400.
+2024-08-16 13:18:13.185 +01:00 [INF] Writing value of type 'SelectListIterator`2' as Json.
+2024-08-16 13:18:13.193 +01:00 [INF] Executed endpoint 'HTTP: POST /api/auth/register'
+2024-08-16 13:18:13.203 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7220/api/auth/register - 400 null application/json; charset=utf-8 1909.4597ms
+2024-08-16 13:21:14.448 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7220/api/auth/register - application/json 105
+2024-08-16 13:21:14.464 +01:00 [INF] CORS policy execution failed.
+2024-08-16 13:21:14.465 +01:00 [INF] Request origin https://localhost:7220 does not have permission to access the resource.
+2024-08-16 13:21:14.467 +01:00 [INF] Executing endpoint 'HTTP: POST /api/auth/register'
+2024-08-16 13:21:14.473 +01:00 [INF] User registration attempt for test
+2024-08-16 13:21:14.475 +01:00 [WRN] User registration failed for test. Errors: Passwords must have at least one digit ('0'-'9').
+2024-08-16 13:21:14.556 +01:00 [INF] Executed DbCommand (8ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 13:21:14.560 +01:00 [INF] Setting HTTP status code 400.
+2024-08-16 13:21:14.561 +01:00 [INF] Writing value of type 'SelectListIterator`2' as Json.
+2024-08-16 13:21:14.562 +01:00 [INF] Executed endpoint 'HTTP: POST /api/auth/register'
+2024-08-16 13:21:14.565 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7220/api/auth/register - 400 null application/json; charset=utf-8 117.2378ms
+2024-08-16 13:21:39.363 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7220/api/auth/register - application/json 107
+2024-08-16 13:21:39.370 +01:00 [INF] CORS policy execution failed.
+2024-08-16 13:21:39.371 +01:00 [INF] Request origin https://localhost:7220 does not have permission to access the resource.
+2024-08-16 13:21:39.376 +01:00 [INF] Executing endpoint 'HTTP: POST /api/auth/register'
+2024-08-16 13:21:39.399 +01:00 [INF] User registration attempt for test
+2024-08-16 13:21:39.878 +01:00 [INF] Executed DbCommand (19ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-08-16 13:21:39.990 +01:00 [INF] Executed DbCommand (19ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (Size = 256), @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTimeOffset), @p7='?' (Size = 256), @p8='?' (Size = 256), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (DbType = Boolean), @p12='?' (Size = 4000), @p13='?' (DbType = Boolean), @p14='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);
+2024-08-16 13:21:39.997 +01:00 [INF] User test registered successfully.
+2024-08-16 13:21:40.007 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 13:21:40.012 +01:00 [INF] Setting HTTP status code 200.
+2024-08-16 13:21:40.013 +01:00 [INF] Writing value of type 'String' as Json.
+2024-08-16 13:21:40.014 +01:00 [INF] Executed endpoint 'HTTP: POST /api/auth/register'
+2024-08-16 13:21:40.020 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7220/api/auth/register - 200 null application/json; charset=utf-8 657.0701ms
+2024-08-16 13:22:16.623 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/auth/register - null null
+2024-08-16 13:22:16.703 +01:00 [INF] CORS policy execution successful.
+2024-08-16 13:22:16.704 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/auth/register - 204 null null 81.9337ms
+2024-08-16 13:22:16.719 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7220/api/auth/register - application/json 93
+2024-08-16 13:22:16.726 +01:00 [INF] CORS policy execution successful.
+2024-08-16 13:22:16.727 +01:00 [INF] Executing endpoint 'HTTP: POST /api/auth/register'
+2024-08-16 13:22:16.728 +01:00 [INF] User registration attempt for test
+2024-08-16 13:22:16.729 +01:00 [WRN] User registration failed for test. Errors: Passwords must have at least one digit ('0'-'9').
+2024-08-16 13:22:16.743 +01:00 [INF] Executed DbCommand (11ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 13:22:16.746 +01:00 [INF] Setting HTTP status code 400.
+2024-08-16 13:22:16.746 +01:00 [INF] Writing value of type 'SelectListIterator`2' as Json.
+2024-08-16 13:22:16.747 +01:00 [INF] Executed endpoint 'HTTP: POST /api/auth/register'
+2024-08-16 13:22:16.750 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7220/api/auth/register - 400 null application/json; charset=utf-8 30.6077ms
+2024-08-16 13:22:50.872 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/auth/register - null null
+2024-08-16 13:22:50.942 +01:00 [INF] CORS policy execution successful.
+2024-08-16 13:22:50.965 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/auth/register - 204 null null 93.2534ms
+2024-08-16 13:22:50.989 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7220/api/auth/register - application/json 94
+2024-08-16 13:22:50.999 +01:00 [INF] CORS policy execution successful.
+2024-08-16 13:22:51.000 +01:00 [INF] Executing endpoint 'HTTP: POST /api/auth/register'
+2024-08-16 13:22:51.003 +01:00 [INF] User registration attempt for test
+2024-08-16 13:22:51.140 +01:00 [INF] Executed DbCommand (14ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-08-16 13:22:51.151 +01:00 [WRN] User registration failed for test. Errors: Username 'test' is already taken.
+2024-08-16 13:22:51.157 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 13:22:51.160 +01:00 [INF] Setting HTTP status code 400.
+2024-08-16 13:22:51.161 +01:00 [INF] Writing value of type 'SelectListIterator`2' as Json.
+2024-08-16 13:22:51.162 +01:00 [INF] Executed endpoint 'HTTP: POST /api/auth/register'
+2024-08-16 13:22:51.176 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7220/api/auth/register - 400 null application/json; charset=utf-8 187.3317ms
+2024-08-16 13:23:15.768 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/auth/register - null null
+2024-08-16 13:23:15.772 +01:00 [INF] CORS policy execution successful.
+2024-08-16 13:23:15.774 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/auth/register - 204 null null 6.8414ms
+2024-08-16 13:23:15.807 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7220/api/auth/register - application/json 95
+2024-08-16 13:23:15.839 +01:00 [INF] CORS policy execution successful.
+2024-08-16 13:23:15.840 +01:00 [INF] Executing endpoint 'HTTP: POST /api/auth/register'
+2024-08-16 13:23:15.841 +01:00 [INF] User registration attempt for test1
+2024-08-16 13:23:15.943 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-08-16 13:23:15.967 +01:00 [INF] Executed DbCommand (12ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (Size = 256), @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTimeOffset), @p7='?' (Size = 256), @p8='?' (Size = 256), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (DbType = Boolean), @p12='?' (Size = 4000), @p13='?' (DbType = Boolean), @p14='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);
+2024-08-16 13:23:15.974 +01:00 [INF] User test1 registered successfully.
+2024-08-16 13:23:15.985 +01:00 [INF] Executed DbCommand (7ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 13:23:15.988 +01:00 [INF] Setting HTTP status code 200.
+2024-08-16 13:23:15.989 +01:00 [INF] Writing value of type 'String' as Json.
+2024-08-16 13:23:15.990 +01:00 [INF] Executed endpoint 'HTTP: POST /api/auth/register'
+2024-08-16 13:23:15.995 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7220/api/auth/register - 200 null application/json; charset=utf-8 187.4766ms
+2024-08-16 13:23:28.116 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/auth/login - null null
+2024-08-16 13:23:28.119 +01:00 [INF] CORS policy execution successful.
+2024-08-16 13:23:28.120 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/auth/login - 204 null null 4.5076ms
+2024-08-16 13:23:28.132 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7220/api/auth/login - application/json 56
+2024-08-16 13:23:28.137 +01:00 [INF] CORS policy execution successful.
+2024-08-16 13:23:28.138 +01:00 [INF] Executing endpoint 'HTTP: POST /api/auth/login'
+2024-08-16 13:23:28.147 +01:00 [INF] User login attempt for null
+2024-08-16 13:23:28.270 +01:00 [INF] Executed endpoint 'HTTP: POST /api/auth/login'
+2024-08-16 13:23:28.274 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'userName')
+   at System.ArgumentNullException.Throw(String paramName)
+   at Microsoft.AspNetCore.Shared.ArgumentNullThrowHelper.ThrowIfNull(Object argument, String paramName)
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByNameAsync(String userName)
+   at Backend.Controllers.Controller.<>c.<<RegisterAuthEndpoints>b__0_1>d.MoveNext() in C:\Users\Kenisank\Desktop\ToDoApps\FullApp_TodoApp\Backend\Controllers\Controller.cs:line 69
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-16 13:23:28.325 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7220/api/auth/login - 500 null text/plain; charset=utf-8 192.7287ms
+2024-08-16 13:25:48.571 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/auth/register - null null
+2024-08-16 13:25:48.593 +01:00 [INF] CORS policy execution successful.
+2024-08-16 13:25:48.597 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/auth/register - 204 null null 26.3164ms
+2024-08-16 13:25:48.612 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7220/api/auth/register - application/json 94
+2024-08-16 13:25:48.623 +01:00 [INF] CORS policy execution successful.
+2024-08-16 13:25:48.624 +01:00 [INF] Executing endpoint 'HTTP: POST /api/auth/register'
+2024-08-16 13:25:48.627 +01:00 [INF] User registration attempt for test
+2024-08-16 13:25:48.733 +01:00 [INF] Executed DbCommand (5ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-08-16 13:25:48.738 +01:00 [WRN] User registration failed for test. Errors: Username 'test' is already taken.
+2024-08-16 13:25:48.742 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 13:25:48.745 +01:00 [INF] Setting HTTP status code 400.
+2024-08-16 13:25:48.745 +01:00 [INF] Writing value of type 'SelectListIterator`2' as Json.
+2024-08-16 13:25:48.746 +01:00 [INF] Executed endpoint 'HTTP: POST /api/auth/register'
+2024-08-16 13:25:48.747 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7220/api/auth/register - 400 null application/json; charset=utf-8 135.7099ms
+2024-08-16 13:30:01.315 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/auth/register - null null
+2024-08-16 13:30:01.323 +01:00 [INF] CORS policy execution successful.
+2024-08-16 13:30:01.324 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/auth/register - 204 null null 9.3211ms
+2024-08-16 13:30:01.330 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7220/api/auth/register - application/json 94
+2024-08-16 13:30:01.346 +01:00 [INF] CORS policy execution successful.
+2024-08-16 13:30:01.347 +01:00 [INF] Executing endpoint 'HTTP: POST /api/auth/register'
+2024-08-16 13:30:01.348 +01:00 [INF] User registration attempt for test
+2024-08-16 13:30:01.463 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-08-16 13:30:01.466 +01:00 [WRN] User registration failed for test. Errors: Username 'test' is already taken.
+2024-08-16 13:30:01.488 +01:00 [INF] Executed DbCommand (16ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 13:30:01.676 +01:00 [INF] Setting HTTP status code 400.
+2024-08-16 13:30:01.677 +01:00 [INF] Writing value of type 'SelectListIterator`2' as Json.
+2024-08-16 13:30:01.678 +01:00 [INF] Executed endpoint 'HTTP: POST /api/auth/register'
+2024-08-16 13:30:01.842 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7220/api/auth/register - 400 null application/json; charset=utf-8 512.6717ms
+2024-08-16 13:30:26.004 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/auth/register - null null
+2024-08-16 13:30:26.007 +01:00 [INF] CORS policy execution successful.
+2024-08-16 13:30:26.008 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/auth/register - 204 null null 4.1254ms
+2024-08-16 13:30:26.034 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7220/api/auth/register - application/json 94
+2024-08-16 13:30:26.038 +01:00 [INF] CORS policy execution successful.
+2024-08-16 13:30:26.039 +01:00 [INF] Executing endpoint 'HTTP: POST /api/auth/register'
+2024-08-16 13:30:26.041 +01:00 [INF] User registration attempt for test
+2024-08-16 13:30:26.159 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-08-16 13:30:26.165 +01:00 [WRN] User registration failed for test. Errors: Username 'test' is already taken.
+2024-08-16 13:30:26.177 +01:00 [INF] Executed DbCommand (11ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 13:30:26.184 +01:00 [INF] Setting HTTP status code 400.
+2024-08-16 13:30:26.186 +01:00 [INF] Writing value of type 'SelectListIterator`2' as Json.
+2024-08-16 13:30:26.187 +01:00 [INF] Executed endpoint 'HTTP: POST /api/auth/register'
+2024-08-16 13:30:26.188 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7220/api/auth/register - 400 null application/json; charset=utf-8 154.4786ms
+2024-08-16 13:30:28.207 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7220/api/auth/register - application/json 94
+2024-08-16 13:30:28.210 +01:00 [INF] CORS policy execution successful.
+2024-08-16 13:30:28.217 +01:00 [INF] Executing endpoint 'HTTP: POST /api/auth/register'
+2024-08-16 13:30:28.219 +01:00 [INF] User registration attempt for test
+2024-08-16 13:30:28.327 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-08-16 13:30:28.333 +01:00 [WRN] User registration failed for test. Errors: Username 'test' is already taken.
+2024-08-16 13:30:28.344 +01:00 [INF] Executed DbCommand (10ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 13:30:28.351 +01:00 [INF] Setting HTTP status code 400.
+2024-08-16 13:30:28.352 +01:00 [INF] Writing value of type 'SelectListIterator`2' as Json.
+2024-08-16 13:30:28.353 +01:00 [INF] Executed endpoint 'HTTP: POST /api/auth/register'
+2024-08-16 13:30:28.355 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7220/api/auth/register - 400 null application/json; charset=utf-8 148.2196ms
+2024-08-16 13:30:38.257 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/auth/register - null null
+2024-08-16 13:30:38.261 +01:00 [INF] CORS policy execution successful.
+2024-08-16 13:30:38.264 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/auth/register - 204 null null 7.7591ms
+2024-08-16 13:30:38.274 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7220/api/auth/register - application/json 94
+2024-08-16 13:30:38.299 +01:00 [INF] CORS policy execution successful.
+2024-08-16 13:30:38.300 +01:00 [INF] Executing endpoint 'HTTP: POST /api/auth/register'
+2024-08-16 13:30:38.303 +01:00 [INF] User registration attempt for test
+2024-08-16 13:30:38.404 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-08-16 13:30:38.407 +01:00 [WRN] User registration failed for test. Errors: Username 'test' is already taken.
+2024-08-16 13:30:38.412 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 13:30:38.418 +01:00 [INF] Setting HTTP status code 400.
+2024-08-16 13:30:38.419 +01:00 [INF] Writing value of type 'SelectListIterator`2' as Json.
+2024-08-16 13:30:38.422 +01:00 [INF] Executed endpoint 'HTTP: POST /api/auth/register'
+2024-08-16 13:30:38.424 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7220/api/auth/register - 400 null application/json; charset=utf-8 152.3631ms
+2024-08-16 13:30:39.392 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7220/api/auth/register - application/json 94
+2024-08-16 13:30:39.396 +01:00 [INF] CORS policy execution successful.
+2024-08-16 13:30:39.397 +01:00 [INF] Executing endpoint 'HTTP: POST /api/auth/register'
+2024-08-16 13:30:39.399 +01:00 [INF] User registration attempt for test
+2024-08-16 13:30:39.516 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-08-16 13:30:39.520 +01:00 [WRN] User registration failed for test. Errors: Username 'test' is already taken.
+2024-08-16 13:30:39.531 +01:00 [INF] Executed DbCommand (10ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 13:30:39.534 +01:00 [INF] Setting HTTP status code 400.
+2024-08-16 13:30:39.535 +01:00 [INF] Writing value of type 'SelectListIterator`2' as Json.
+2024-08-16 13:30:39.536 +01:00 [INF] Executed endpoint 'HTTP: POST /api/auth/register'
+2024-08-16 13:30:39.537 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7220/api/auth/register - 400 null application/json; charset=utf-8 145.2495ms
+2024-08-16 13:30:47.139 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/auth/register - null null
+2024-08-16 13:30:47.145 +01:00 [INF] CORS policy execution successful.
+2024-08-16 13:30:47.151 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/auth/register - 204 null null 11.3838ms
+2024-08-16 13:30:47.157 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7220/api/auth/register - application/json 94
+2024-08-16 13:30:47.167 +01:00 [INF] CORS policy execution successful.
+2024-08-16 13:30:47.167 +01:00 [INF] Executing endpoint 'HTTP: POST /api/auth/register'
+2024-08-16 13:30:47.170 +01:00 [INF] User registration attempt for test
+2024-08-16 13:30:47.276 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-08-16 13:30:47.281 +01:00 [WRN] User registration failed for test. Errors: Username 'test' is already taken.
+2024-08-16 13:30:47.293 +01:00 [INF] Executed DbCommand (10ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 13:30:47.297 +01:00 [INF] Setting HTTP status code 400.
+2024-08-16 13:30:47.297 +01:00 [INF] Writing value of type 'SelectListIterator`2' as Json.
+2024-08-16 13:30:47.299 +01:00 [INF] Executed endpoint 'HTTP: POST /api/auth/register'
+2024-08-16 13:30:47.300 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7220/api/auth/register - 400 null application/json; charset=utf-8 143.7232ms
+2024-08-16 13:30:48.139 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7220/api/auth/register - application/json 94
+2024-08-16 13:30:48.148 +01:00 [INF] CORS policy execution successful.
+2024-08-16 13:30:48.149 +01:00 [INF] Executing endpoint 'HTTP: POST /api/auth/register'
+2024-08-16 13:30:48.150 +01:00 [INF] User registration attempt for test
+2024-08-16 13:30:48.286 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-08-16 13:30:48.290 +01:00 [WRN] User registration failed for test. Errors: Username 'test' is already taken.
+2024-08-16 13:30:48.296 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 13:30:48.302 +01:00 [INF] Setting HTTP status code 400.
+2024-08-16 13:30:48.304 +01:00 [INF] Writing value of type 'SelectListIterator`2' as Json.
+2024-08-16 13:30:48.305 +01:00 [INF] Executed endpoint 'HTTP: POST /api/auth/register'
+2024-08-16 13:30:48.307 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7220/api/auth/register - 400 null application/json; charset=utf-8 168.1394ms
+2024-08-16 13:37:48.096 +01:00 [INF] User profile is available. Using 'C:\Users\Kenisank\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-16 13:37:48.623 +01:00 [INF] Now listening on: https://localhost:7220
+2024-08-16 13:37:48.625 +01:00 [INF] Now listening on: http://localhost:5011
+2024-08-16 13:37:48.628 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-16 13:37:48.630 +01:00 [INF] Hosting environment: Development
+2024-08-16 13:37:48.631 +01:00 [INF] Content root path: C:\Users\Kenisank\Desktop\ToDoApps\FullApp_TodoApp\Backend
+2024-08-16 13:37:49.372 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-08-16 13:37:49.811 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 445.3496ms
+2024-08-16 13:37:49.813 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-16 13:37:49.828 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 15.4087ms
+2024-08-16 13:37:50.531 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-08-16 13:37:50.639 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 107.9251ms
+2024-08-16 13:37:51.782 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-08-16 13:37:51.795 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-08-16 13:37:52.017 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 235.071ms
+2024-08-16 13:43:05.976 +01:00 [INF] User profile is available. Using 'C:\Users\Kenisank\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-16 13:43:06.488 +01:00 [INF] Now listening on: https://localhost:7220
+2024-08-16 13:43:06.489 +01:00 [INF] Now listening on: http://localhost:5011
+2024-08-16 13:43:06.491 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-16 13:43:06.492 +01:00 [INF] Hosting environment: Development
+2024-08-16 13:43:06.493 +01:00 [INF] Content root path: C:\Users\Kenisank\Desktop\ToDoApps\FullApp_TodoApp\Backend
+2024-08-16 13:43:07.277 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-08-16 13:43:07.736 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-16 13:43:07.739 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 466.55ms
+2024-08-16 13:43:07.752 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 16.009ms
+2024-08-16 13:43:08.340 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-08-16 13:43:08.477 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 136.9249ms
+2024-08-16 13:43:09.790 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-08-16 13:43:09.805 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-08-16 13:43:10.038 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 248.1438ms
+2024-08-16 13:43:31.728 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/auth/register - null null
+2024-08-16 13:43:31.739 +01:00 [INF] CORS policy execution successful.
+2024-08-16 13:43:31.742 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/auth/register - 204 null null 14.241ms
+2024-08-16 13:43:31.752 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7220/api/auth/register - application/json 94
+2024-08-16 13:43:31.756 +01:00 [INF] CORS policy execution successful.
+2024-08-16 13:43:31.831 +01:00 [INF] Executing endpoint 'HTTP: POST /api/auth/register'
+2024-08-16 13:43:32.021 +01:00 [INF] User registration attempt for test
+2024-08-16 13:43:33.634 +01:00 [INF] Executed DbCommand (64ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-08-16 13:43:33.773 +01:00 [WRN] User registration failed for test. Errors: Username 'test' is already taken.
+2024-08-16 13:43:33.910 +01:00 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 13:43:33.940 +01:00 [INF] Setting HTTP status code 400.
+2024-08-16 13:43:33.945 +01:00 [INF] Writing value of type 'SelectListIterator`2' as Json.
+2024-08-16 13:43:33.954 +01:00 [INF] Executed endpoint 'HTTP: POST /api/auth/register'
+2024-08-16 13:43:33.966 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7220/api/auth/register - 400 null application/json; charset=utf-8 2213.4421ms
+2024-08-16 13:48:08.946 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/auth/login - null null
+2024-08-16 13:48:08.963 +01:00 [INF] CORS policy execution successful.
+2024-08-16 13:48:08.965 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/auth/login - 204 null null 18.2145ms
+2024-08-16 13:48:09.011 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7220/api/auth/login - application/json 59
+2024-08-16 13:48:09.015 +01:00 [INF] CORS policy execution successful.
+2024-08-16 13:48:09.018 +01:00 [INF] Executing endpoint 'HTTP: POST /api/auth/login'
+2024-08-16 13:48:09.028 +01:00 [INF] User login attempt for test3
+2024-08-16 13:48:09.100 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-08-16 13:48:09.105 +01:00 [WRN] User login failed for test3: Invalid username.
+2024-08-16 13:48:09.115 +01:00 [INF] Executed DbCommand (7ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 13:48:09.119 +01:00 [INF] Setting HTTP status code 400.
+2024-08-16 13:48:09.120 +01:00 [INF] Writing value of type 'String' as Json.
+2024-08-16 13:48:09.124 +01:00 [INF] Executed endpoint 'HTTP: POST /api/auth/login'
+2024-08-16 13:48:09.127 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7220/api/auth/login - 400 null application/json; charset=utf-8 119.6772ms
+2024-08-16 13:49:35.826 +01:00 [INF] User profile is available. Using 'C:\Users\Kenisank\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-16 13:49:36.745 +01:00 [INF] Now listening on: https://localhost:7220
+2024-08-16 13:49:36.747 +01:00 [INF] Now listening on: http://localhost:5011
+2024-08-16 13:49:36.749 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-16 13:49:36.750 +01:00 [INF] Hosting environment: Development
+2024-08-16 13:49:36.751 +01:00 [INF] Content root path: C:\Users\Kenisank\Desktop\ToDoApps\FullApp_TodoApp\Backend
+2024-08-16 13:49:37.416 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-08-16 13:49:37.862 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 448.4811ms
+2024-08-16 13:49:38.502 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-08-16 13:49:38.502 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-16 13:49:38.618 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 116.6544ms
+2024-08-16 13:49:38.669 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 167.3412ms
+2024-08-16 13:49:40.048 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-08-16 13:49:40.063 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-08-16 13:49:40.471 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 422.7531ms
+2024-08-16 13:49:52.916 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/auth/login - null null
+2024-08-16 13:49:52.936 +01:00 [INF] CORS policy execution successful.
+2024-08-16 13:49:52.944 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/auth/login - 204 null null 27.8658ms
+2024-08-16 13:49:52.957 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7220/api/auth/login - application/json 59
+2024-08-16 13:49:52.965 +01:00 [INF] CORS policy execution successful.
+2024-08-16 13:49:53.066 +01:00 [INF] Executing endpoint 'HTTP: POST /api/auth/login'
+2024-08-16 13:49:53.242 +01:00 [INF] User login attempt for test3
+2024-08-16 13:49:54.712 +01:00 [INF] Executed DbCommand (69ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-08-16 13:49:54.743 +01:00 [WRN] User login failed for test3: Invalid username.
+2024-08-16 13:49:54.925 +01:00 [INF] Executed DbCommand (14ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 13:49:54.970 +01:00 [INF] Setting HTTP status code 400.
+2024-08-16 13:49:54.974 +01:00 [INF] Writing value of type 'String' as Json.
+2024-08-16 13:49:54.980 +01:00 [INF] Executed endpoint 'HTTP: POST /api/auth/login'
+2024-08-16 13:49:55.011 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7220/api/auth/login - 400 null application/json; charset=utf-8 2053.7551ms
+2024-08-16 13:50:17.634 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/auth/login - null null
+2024-08-16 13:50:17.671 +01:00 [INF] CORS policy execution successful.
+2024-08-16 13:50:17.673 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/auth/login - 204 null null 43.0442ms
+2024-08-16 13:50:17.687 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7220/api/auth/login - application/json 59
+2024-08-16 13:50:17.692 +01:00 [INF] CORS policy execution successful.
+2024-08-16 13:50:17.694 +01:00 [INF] Executing endpoint 'HTTP: POST /api/auth/login'
+2024-08-16 13:50:17.715 +01:00 [INF] User login attempt for test3
+2024-08-16 13:50:17.804 +01:00 [INF] Executed DbCommand (10ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-08-16 13:50:17.807 +01:00 [WRN] User login failed for test3: Invalid username.
+2024-08-16 13:50:17.811 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 13:50:17.816 +01:00 [INF] Setting HTTP status code 400.
+2024-08-16 13:50:17.818 +01:00 [INF] Writing value of type 'String' as Json.
+2024-08-16 13:50:17.819 +01:00 [INF] Executed endpoint 'HTTP: POST /api/auth/login'
+2024-08-16 13:50:17.821 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7220/api/auth/login - 400 null application/json; charset=utf-8 134.9563ms
+2024-08-16 13:50:59.508 +01:00 [INF] User profile is available. Using 'C:\Users\Kenisank\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-16 13:51:00.075 +01:00 [INF] Now listening on: https://localhost:7220
+2024-08-16 13:51:00.076 +01:00 [INF] Now listening on: http://localhost:5011
+2024-08-16 13:51:00.079 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-16 13:51:00.080 +01:00 [INF] Hosting environment: Development
+2024-08-16 13:51:00.081 +01:00 [INF] Content root path: C:\Users\Kenisank\Desktop\ToDoApps\FullApp_TodoApp\Backend
+2024-08-16 13:51:00.730 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-08-16 13:51:01.212 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 496.873ms
+2024-08-16 13:51:01.793 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-16 13:51:01.793 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-08-16 13:51:01.816 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 23.5984ms
+2024-08-16 13:51:01.881 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 87.8442ms
+2024-08-16 13:51:02.807 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-08-16 13:51:02.816 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-08-16 13:51:03.017 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 210.4809ms
+2024-08-16 13:54:10.014 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/auth/login - null null
+2024-08-16 13:54:10.042 +01:00 [INF] CORS policy execution successful.
+2024-08-16 13:54:10.044 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/auth/login - 204 null null 31.1469ms
+2024-08-16 13:54:10.063 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7220/api/auth/login - application/json 59
+2024-08-16 13:54:10.078 +01:00 [INF] CORS policy execution successful.
+2024-08-16 13:54:10.148 +01:00 [INF] Executing endpoint 'HTTP: POST /api/auth/login'
+2024-08-16 13:54:10.335 +01:00 [INF] User login attempt for test3
+2024-08-16 13:54:11.802 +01:00 [INF] Executed DbCommand (69ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-08-16 13:54:11.830 +01:00 [WRN] User login failed for test3: Invalid username.
+2024-08-16 13:54:12.003 +01:00 [INF] Executed DbCommand (14ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 13:54:12.038 +01:00 [INF] Setting HTTP status code 400.
+2024-08-16 13:54:12.039 +01:00 [INF] Writing value of type 'String' as Json.
+2024-08-16 13:54:12.043 +01:00 [INF] Executed endpoint 'HTTP: POST /api/auth/login'
+2024-08-16 13:54:12.057 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7220/api/auth/login - 400 null application/json; charset=utf-8 1995.0077ms
+2024-08-16 13:55:13.134 +01:00 [INF] User profile is available. Using 'C:\Users\Kenisank\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-16 13:55:13.578 +01:00 [INF] Now listening on: https://localhost:7220
+2024-08-16 13:55:13.579 +01:00 [INF] Now listening on: http://localhost:5011
+2024-08-16 13:55:13.581 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-16 13:55:13.582 +01:00 [INF] Hosting environment: Development
+2024-08-16 13:55:13.583 +01:00 [INF] Content root path: C:\Users\Kenisank\Desktop\ToDoApps\FullApp_TodoApp\Backend
+2024-08-16 13:55:14.301 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-08-16 13:55:14.762 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 464.9618ms
+2024-08-16 13:55:15.276 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-16 13:55:15.276 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-08-16 13:55:15.295 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 18.9313ms
+2024-08-16 13:55:15.364 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 88.2746ms
+2024-08-16 13:55:15.917 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-08-16 13:55:15.929 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-08-16 13:55:16.183 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 266.4935ms
+2024-08-16 13:55:44.856 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/auth/login - null null
+2024-08-16 13:55:44.876 +01:00 [INF] CORS policy execution successful.
+2024-08-16 13:55:44.880 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/auth/login - 204 null null 24.4847ms
+2024-08-16 13:55:44.890 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7220/api/auth/login - application/json 59
+2024-08-16 13:55:44.895 +01:00 [INF] CORS policy execution successful.
+2024-08-16 13:55:44.971 +01:00 [INF] Executing endpoint 'HTTP: POST /api/auth/login'
+2024-08-16 13:55:45.156 +01:00 [INF] User login attempt for test3
+2024-08-16 13:55:46.506 +01:00 [INF] Executed DbCommand (62ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-08-16 13:55:46.544 +01:00 [WRN] User login failed for test3: Invalid username.
+2024-08-16 13:55:46.706 +01:00 [INF] Executed DbCommand (14ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 13:55:46.748 +01:00 [INF] Setting HTTP status code 400.
+2024-08-16 13:55:46.753 +01:00 [INF] Writing value of type 'String' as Json.
+2024-08-16 13:55:46.758 +01:00 [INF] Executed endpoint 'HTTP: POST /api/auth/login'
+2024-08-16 13:55:46.790 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7220/api/auth/login - 400 null application/json; charset=utf-8 1899.7131ms
+2024-08-16 13:55:51.977 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/auth/login - null null
+2024-08-16 13:55:51.986 +01:00 [INF] CORS policy execution successful.
+2024-08-16 13:55:51.987 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/auth/login - 204 null null 10.4539ms
+2024-08-16 13:55:51.991 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7220/api/auth/login - application/json 59
+2024-08-16 13:55:51.997 +01:00 [INF] CORS policy execution successful.
+2024-08-16 13:55:52.001 +01:00 [INF] Executing endpoint 'HTTP: POST /api/auth/login'
+2024-08-16 13:55:52.012 +01:00 [INF] User login attempt for test3
+2024-08-16 13:55:52.089 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-08-16 13:55:52.091 +01:00 [WRN] User login failed for test3: Invalid username.
+2024-08-16 13:55:52.104 +01:00 [INF] Executed DbCommand (9ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 13:55:52.107 +01:00 [INF] Setting HTTP status code 400.
+2024-08-16 13:55:52.108 +01:00 [INF] Writing value of type 'String' as Json.
+2024-08-16 13:55:52.109 +01:00 [INF] Executed endpoint 'HTTP: POST /api/auth/login'
+2024-08-16 13:55:52.112 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7220/api/auth/login - 400 null application/json; charset=utf-8 120.6492ms
+2024-08-16 13:56:09.549 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-08-16 13:56:09.620 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 71.6751ms
+2024-08-16 13:56:09.738 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-16 13:56:09.741 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 3.7031ms
+2024-08-16 13:56:10.179 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-08-16 13:56:10.217 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 37.9547ms
+2024-08-16 13:56:10.624 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-08-16 13:56:10.644 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 20.8656ms
+2024-08-16 13:56:28.900 +01:00 [INF] User profile is available. Using 'C:\Users\Kenisank\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-16 13:56:29.616 +01:00 [INF] Now listening on: https://localhost:7220
+2024-08-16 13:56:29.617 +01:00 [INF] Now listening on: http://localhost:5011
+2024-08-16 13:56:29.619 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-16 13:56:29.620 +01:00 [INF] Hosting environment: Development
+2024-08-16 13:56:29.621 +01:00 [INF] Content root path: C:\Users\Kenisank\Desktop\ToDoApps\FullApp_TodoApp\Backend
+2024-08-16 13:56:30.209 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-08-16 13:56:30.612 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-16 13:56:30.622 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 426.7841ms
+2024-08-16 13:56:30.630 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 18.114ms
+2024-08-16 13:56:31.152 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-08-16 13:56:31.237 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 84.5091ms
+2024-08-16 13:56:32.704 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-08-16 13:56:32.715 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-08-16 13:56:32.882 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 178.6263ms
+2024-08-16 13:57:21.657 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/auth/register - null null
+2024-08-16 13:57:21.665 +01:00 [INF] CORS policy execution successful.
+2024-08-16 13:57:21.669 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/auth/register - 204 null null 12.7487ms
+2024-08-16 13:57:21.673 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7220/api/auth/register - application/json 100
+2024-08-16 13:57:21.681 +01:00 [INF] CORS policy execution successful.
+2024-08-16 13:57:21.756 +01:00 [INF] Executing endpoint 'HTTP: POST /api/auth/register'
+2024-08-16 13:57:21.934 +01:00 [INF] User registration attempt for Ttesttodo5
+2024-08-16 13:57:23.409 +01:00 [INF] Executed DbCommand (63ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-08-16 13:57:23.654 +01:00 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (Size = 256), @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTimeOffset), @p7='?' (Size = 256), @p8='?' (Size = 256), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (DbType = Boolean), @p12='?' (Size = 4000), @p13='?' (DbType = Boolean), @p14='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);
+2024-08-16 13:57:23.669 +01:00 [INF] User Ttesttodo5 registered successfully.
+2024-08-16 13:57:23.718 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 13:57:23.744 +01:00 [INF] Setting HTTP status code 200.
+2024-08-16 13:57:23.748 +01:00 [INF] Writing value of type 'String' as Json.
+2024-08-16 13:57:23.752 +01:00 [INF] Executed endpoint 'HTTP: POST /api/auth/register'
+2024-08-16 13:57:23.770 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7220/api/auth/register - 200 null application/json; charset=utf-8 2096.83ms
+2024-08-16 13:58:45.450 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/auth/login - null null
+2024-08-16 13:58:45.455 +01:00 [INF] CORS policy execution successful.
+2024-08-16 13:58:45.458 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/auth/login - 204 null null 7.9824ms
+2024-08-16 13:58:45.472 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7220/api/auth/login - application/json 64
+2024-08-16 13:58:45.478 +01:00 [INF] CORS policy execution successful.
+2024-08-16 13:58:45.490 +01:00 [INF] Executing endpoint 'HTTP: POST /api/auth/login'
+2024-08-16 13:58:45.503 +01:00 [INF] User login attempt for Ttesttodo5
+2024-08-16 13:58:45.582 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-08-16 13:58:45.835 +01:00 [INF] Executed endpoint 'HTTP: POST /api/auth/login'
+2024-08-16 13:58:45.837 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentOutOfRangeException: IDX10653: The encryption algorithm 'http://www.w3.org/2001/04/xmldsig-more#hmac-sha256' requires a key size of at least '128' bits. Key '[PII of type 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', is of size: '104'. (Parameter 'key')
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider..ctor(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateJwtSecurityTokenPrivate(String issuer, String audience, IList`1 audiences, ClaimsIdentity subject, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt, SigningCredentials signingCredentials, EncryptingCredentials encryptingCredentials, IDictionary`2 claimCollection, String tokenType, IDictionary`2 additionalHeaderClaims, IDictionary`2 additionalInnerHeaderClaims)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(SecurityTokenDescriptor tokenDescriptor)
+   at Backend.Middlewares.JwtTokenService.GenerateToken(ApplicationUser user) in C:\Users\Kenisank\Desktop\ToDoApps\FullApp_TodoApp\Backend\Services\JwtTokenService.cs:line 32
+   at Backend.Controllers.Controller.<>c.<<RegisterAuthEndpoints>b__0_1>d.MoveNext() in C:\Users\Kenisank\Desktop\ToDoApps\FullApp_TodoApp\Backend\Controllers\Controller.cs:line 85
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-16 13:58:45.871 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7220/api/auth/login - 500 null text/plain; charset=utf-8 398.6169ms
+2024-08-16 13:59:25.717 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/auth/login - null null
+2024-08-16 13:59:25.735 +01:00 [INF] CORS policy execution successful.
+2024-08-16 13:59:25.736 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/auth/login - 204 null null 20.4518ms
+2024-08-16 13:59:25.748 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7220/api/auth/login - application/json 64
+2024-08-16 13:59:25.763 +01:00 [INF] CORS policy execution successful.
+2024-08-16 13:59:25.768 +01:00 [INF] Executing endpoint 'HTTP: POST /api/auth/login'
+2024-08-16 13:59:25.776 +01:00 [INF] User login attempt for Ttesttodo5
+2024-08-16 13:59:25.791 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-08-16 13:59:25.942 +01:00 [INF] Executed endpoint 'HTTP: POST /api/auth/login'
+2024-08-16 13:59:25.944 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentOutOfRangeException: IDX10653: The encryption algorithm 'http://www.w3.org/2001/04/xmldsig-more#hmac-sha256' requires a key size of at least '128' bits. Key '[PII of type 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', is of size: '104'. (Parameter 'key')
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider..ctor(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateJwtSecurityTokenPrivate(String issuer, String audience, IList`1 audiences, ClaimsIdentity subject, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt, SigningCredentials signingCredentials, EncryptingCredentials encryptingCredentials, IDictionary`2 claimCollection, String tokenType, IDictionary`2 additionalHeaderClaims, IDictionary`2 additionalInnerHeaderClaims)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(SecurityTokenDescriptor tokenDescriptor)
+   at Backend.Middlewares.JwtTokenService.GenerateToken(ApplicationUser user) in C:\Users\Kenisank\Desktop\ToDoApps\FullApp_TodoApp\Backend\Services\JwtTokenService.cs:line 32
+   at Backend.Controllers.Controller.<>c.<<RegisterAuthEndpoints>b__0_1>d.MoveNext() in C:\Users\Kenisank\Desktop\ToDoApps\FullApp_TodoApp\Backend\Controllers\Controller.cs:line 85
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-16 13:59:25.955 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7220/api/auth/login - 500 null text/plain; charset=utf-8 207.4497ms
+2024-08-16 14:00:09.273 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7220/api/auth/login - application/json 73
+2024-08-16 14:00:09.282 +01:00 [INF] CORS policy execution failed.
+2024-08-16 14:00:09.286 +01:00 [INF] Request origin https://localhost:7220 does not have permission to access the resource.
+2024-08-16 14:00:09.288 +01:00 [INF] Executing endpoint 'HTTP: POST /api/auth/login'
+2024-08-16 14:00:09.301 +01:00 [INF] User login attempt for Ttesttodo5
+2024-08-16 14:00:09.319 +01:00 [INF] Executed DbCommand (13ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-08-16 14:00:09.490 +01:00 [INF] Executed endpoint 'HTTP: POST /api/auth/login'
+2024-08-16 14:00:09.492 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentOutOfRangeException: IDX10653: The encryption algorithm 'http://www.w3.org/2001/04/xmldsig-more#hmac-sha256' requires a key size of at least '128' bits. Key '[PII of type 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', is of size: '104'. (Parameter 'key')
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider..ctor(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateJwtSecurityTokenPrivate(String issuer, String audience, IList`1 audiences, ClaimsIdentity subject, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt, SigningCredentials signingCredentials, EncryptingCredentials encryptingCredentials, IDictionary`2 claimCollection, String tokenType, IDictionary`2 additionalHeaderClaims, IDictionary`2 additionalInnerHeaderClaims)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(SecurityTokenDescriptor tokenDescriptor)
+   at Backend.Middlewares.JwtTokenService.GenerateToken(ApplicationUser user) in C:\Users\Kenisank\Desktop\ToDoApps\FullApp_TodoApp\Backend\Services\JwtTokenService.cs:line 32
+   at Backend.Controllers.Controller.<>c.<<RegisterAuthEndpoints>b__0_1>d.MoveNext() in C:\Users\Kenisank\Desktop\ToDoApps\FullApp_TodoApp\Backend\Controllers\Controller.cs:line 85
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-16 14:00:09.506 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7220/api/auth/login - 500 null text/plain; charset=utf-8 233.1199ms
+2024-08-16 14:00:31.296 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7220/api/auth/login - application/json 73
+2024-08-16 14:00:31.299 +01:00 [INF] CORS policy execution failed.
+2024-08-16 14:00:31.300 +01:00 [INF] Request origin https://localhost:7220 does not have permission to access the resource.
+2024-08-16 14:00:31.302 +01:00 [INF] Executing endpoint 'HTTP: POST /api/auth/login'
+2024-08-16 14:00:31.304 +01:00 [INF] User login attempt for Ttesttodo5
+2024-08-16 14:00:31.311 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-08-16 14:00:31.460 +01:00 [INF] Executed endpoint 'HTTP: POST /api/auth/login'
+2024-08-16 14:00:31.463 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentOutOfRangeException: IDX10653: The encryption algorithm 'http://www.w3.org/2001/04/xmldsig-more#hmac-sha256' requires a key size of at least '128' bits. Key '[PII of type 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', is of size: '104'. (Parameter 'key')
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider..ctor(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateJwtSecurityTokenPrivate(String issuer, String audience, IList`1 audiences, ClaimsIdentity subject, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt, SigningCredentials signingCredentials, EncryptingCredentials encryptingCredentials, IDictionary`2 claimCollection, String tokenType, IDictionary`2 additionalHeaderClaims, IDictionary`2 additionalInnerHeaderClaims)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(SecurityTokenDescriptor tokenDescriptor)
+   at Backend.Middlewares.JwtTokenService.GenerateToken(ApplicationUser user) in C:\Users\Kenisank\Desktop\ToDoApps\FullApp_TodoApp\Backend\Services\JwtTokenService.cs:line 32
+   at Backend.Controllers.Controller.<>c.<<RegisterAuthEndpoints>b__0_1>d.MoveNext() in C:\Users\Kenisank\Desktop\ToDoApps\FullApp_TodoApp\Backend\Controllers\Controller.cs:line 85
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-16 14:00:31.476 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7220/api/auth/login - 500 null text/plain; charset=utf-8 180.4646ms
+2024-08-16 14:01:27.543 +01:00 [INF] User profile is available. Using 'C:\Users\Kenisank\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-16 14:01:27.979 +01:00 [INF] Now listening on: https://localhost:7220
+2024-08-16 14:01:27.981 +01:00 [INF] Now listening on: http://localhost:5011
+2024-08-16 14:01:27.983 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-16 14:01:27.984 +01:00 [INF] Hosting environment: Development
+2024-08-16 14:01:27.985 +01:00 [INF] Content root path: C:\Users\Kenisank\Desktop\ToDoApps\FullApp_TodoApp\Backend
+2024-08-16 14:01:28.877 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-08-16 14:01:29.394 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 517.9737ms
+2024-08-16 14:01:29.401 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-16 14:01:29.414 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 13.3507ms
+2024-08-16 14:01:29.995 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-08-16 14:01:30.070 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 75.0812ms
+2024-08-16 14:01:30.849 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-08-16 14:01:30.859 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-08-16 14:01:31.028 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 178.9215ms
+2024-08-16 14:05:51.527 +01:00 [INF] User profile is available. Using 'C:\Users\Kenisank\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-16 14:05:52.002 +01:00 [INF] Now listening on: https://localhost:7220
+2024-08-16 14:05:52.003 +01:00 [INF] Now listening on: http://localhost:5011
+2024-08-16 14:05:52.006 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-16 14:05:52.007 +01:00 [INF] Hosting environment: Development
+2024-08-16 14:05:52.008 +01:00 [INF] Content root path: C:\Users\Kenisank\Desktop\ToDoApps\FullApp_TodoApp\Backend
+2024-08-16 14:05:52.544 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-08-16 14:05:53.014 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 475.1577ms
+2024-08-16 14:05:53.016 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-16 14:05:53.028 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 11.627ms
+2024-08-16 14:05:53.506 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-08-16 14:05:53.588 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 82.2298ms
+2024-08-16 14:05:54.256 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-08-16 14:05:54.270 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-08-16 14:05:54.716 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 460.5335ms
+2024-08-16 14:07:39.402 +01:00 [INF] User profile is available. Using 'C:\Users\Kenisank\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-16 14:07:39.864 +01:00 [INF] Now listening on: https://localhost:7220
+2024-08-16 14:07:39.866 +01:00 [INF] Now listening on: http://localhost:5011
+2024-08-16 14:07:39.869 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-16 14:07:39.870 +01:00 [INF] Hosting environment: Development
+2024-08-16 14:07:39.872 +01:00 [INF] Content root path: C:\Users\Kenisank\Desktop\ToDoApps\FullApp_TodoApp\Backend
+2024-08-16 14:07:41.055 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-08-16 14:07:41.503 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 451.6848ms
+2024-08-16 14:07:42.094 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-08-16 14:07:42.115 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-16 14:07:42.135 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 20.2259ms
+2024-08-16 14:07:42.339 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 245.0783ms
+2024-08-16 14:07:43.189 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-08-16 14:07:43.199 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-08-16 14:07:43.377 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 188.0481ms
+2024-08-16 14:08:56.935 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7220/api/auth/login - application/json 73
+2024-08-16 14:08:56.960 +01:00 [INF] CORS policy execution failed.
+2024-08-16 14:08:56.965 +01:00 [INF] Request origin https://localhost:7220 does not have permission to access the resource.
+2024-08-16 14:08:57.040 +01:00 [INF] Executing endpoint 'HTTP: POST /api/auth/login'
+2024-08-16 14:08:57.241 +01:00 [INF] User login attempt for Ttesttodo5
+2024-08-16 14:08:58.719 +01:00 [INF] Executed DbCommand (72ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-08-16 14:08:59.085 +01:00 [INF] Executed endpoint 'HTTP: POST /api/auth/login'
+2024-08-16 14:08:59.089 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentOutOfRangeException: IDX10653: The encryption algorithm 'http://www.w3.org/2001/04/xmldsig-more#hmac-sha256' requires a key size of at least '128' bits. Key '[PII of type 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', is of size: '104'. (Parameter 'key')
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider..ctor(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateJwtSecurityTokenPrivate(String issuer, String audience, IList`1 audiences, ClaimsIdentity subject, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt, SigningCredentials signingCredentials, EncryptingCredentials encryptingCredentials, IDictionary`2 claimCollection, String tokenType, IDictionary`2 additionalHeaderClaims, IDictionary`2 additionalInnerHeaderClaims)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(SecurityTokenDescriptor tokenDescriptor)
+   at Backend.Middlewares.JwtTokenService.GenerateToken(ApplicationUser user) in C:\Users\Kenisank\Desktop\ToDoApps\FullApp_TodoApp\Backend\Services\JwtTokenService.cs:line 32
+   at Backend.Controllers.Controller.<>c.<<RegisterAuthEndpoints>b__0_1>d.MoveNext() in C:\Users\Kenisank\Desktop\ToDoApps\FullApp_TodoApp\Backend\Controllers\Controller.cs:line 85
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-16 14:08:59.157 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7220/api/auth/login - 500 null text/plain; charset=utf-8 2222.0254ms
+2024-08-16 14:09:20.047 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7220/api/auth/login - application/json 74
+2024-08-16 14:09:20.074 +01:00 [INF] CORS policy execution failed.
+2024-08-16 14:09:20.078 +01:00 [INF] Request origin https://localhost:7220 does not have permission to access the resource.
+2024-08-16 14:09:20.080 +01:00 [INF] Executing endpoint 'HTTP: POST /api/auth/login'
+2024-08-16 14:09:20.085 +01:00 [INF] User login attempt for Ttesttodo75
+2024-08-16 14:09:20.166 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-08-16 14:09:20.170 +01:00 [WRN] User login failed for Ttesttodo75: Invalid username.
+2024-08-16 14:09:20.296 +01:00 [INF] Executed DbCommand (14ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 14:09:20.330 +01:00 [INF] Setting HTTP status code 400.
+2024-08-16 14:09:20.336 +01:00 [INF] Writing value of type 'String' as Json.
+2024-08-16 14:09:20.344 +01:00 [INF] Executed endpoint 'HTTP: POST /api/auth/login'
+2024-08-16 14:09:20.349 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7220/api/auth/login - 400 null application/json; charset=utf-8 302.4152ms
+2024-08-16 14:09:32.935 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7220/api/auth/login - application/json 73
+2024-08-16 14:09:32.948 +01:00 [INF] CORS policy execution failed.
+2024-08-16 14:09:32.949 +01:00 [INF] Request origin https://localhost:7220 does not have permission to access the resource.
+2024-08-16 14:09:32.953 +01:00 [INF] Executing endpoint 'HTTP: POST /api/auth/login'
+2024-08-16 14:09:32.970 +01:00 [INF] User login attempt for Ttesttodo5
+2024-08-16 14:09:32.990 +01:00 [INF] Executed DbCommand (6ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-08-16 14:09:33.151 +01:00 [INF] Executed endpoint 'HTTP: POST /api/auth/login'
+2024-08-16 14:09:33.154 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentOutOfRangeException: IDX10653: The encryption algorithm 'http://www.w3.org/2001/04/xmldsig-more#hmac-sha256' requires a key size of at least '128' bits. Key '[PII of type 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', is of size: '104'. (Parameter 'key')
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider..ctor(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateJwtSecurityTokenPrivate(String issuer, String audience, IList`1 audiences, ClaimsIdentity subject, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt, SigningCredentials signingCredentials, EncryptingCredentials encryptingCredentials, IDictionary`2 claimCollection, String tokenType, IDictionary`2 additionalHeaderClaims, IDictionary`2 additionalInnerHeaderClaims)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(SecurityTokenDescriptor tokenDescriptor)
+   at Backend.Middlewares.JwtTokenService.GenerateToken(ApplicationUser user) in C:\Users\Kenisank\Desktop\ToDoApps\FullApp_TodoApp\Backend\Services\JwtTokenService.cs:line 32
+   at Backend.Controllers.Controller.<>c.<<RegisterAuthEndpoints>b__0_1>d.MoveNext() in C:\Users\Kenisank\Desktop\ToDoApps\FullApp_TodoApp\Backend\Controllers\Controller.cs:line 85
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-16 14:09:33.165 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7220/api/auth/login - 500 null text/plain; charset=utf-8 230.7841ms
+2024-08-16 14:11:18.147 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7220/api/auth/login - application/json 73
+2024-08-16 14:11:18.168 +01:00 [INF] CORS policy execution failed.
+2024-08-16 14:11:18.170 +01:00 [INF] Request origin https://localhost:7220 does not have permission to access the resource.
+2024-08-16 14:11:18.172 +01:00 [INF] Executing endpoint 'HTTP: POST /api/auth/login'
+2024-08-16 14:11:18.173 +01:00 [INF] User login attempt for Ttesttodo5
+2024-08-16 14:11:18.179 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-08-16 14:12:25.142 +01:00 [INF] Executed endpoint 'HTTP: POST /api/auth/login'
+2024-08-16 14:12:25.162 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentOutOfRangeException: IDX10653: The encryption algorithm 'http://www.w3.org/2001/04/xmldsig-more#hmac-sha256' requires a key size of at least '128' bits. Key '[PII of type 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', is of size: '104'. (Parameter 'key')
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider..ctor(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateJwtSecurityTokenPrivate(String issuer, String audience, IList`1 audiences, ClaimsIdentity subject, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt, SigningCredentials signingCredentials, EncryptingCredentials encryptingCredentials, IDictionary`2 claimCollection, String tokenType, IDictionary`2 additionalHeaderClaims, IDictionary`2 additionalInnerHeaderClaims)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(SecurityTokenDescriptor tokenDescriptor)
+   at Backend.Middlewares.JwtTokenService.GenerateToken(ApplicationUser user) in C:\Users\Kenisank\Desktop\ToDoApps\FullApp_TodoApp\Backend\Services\JwtTokenService.cs:line 32
+   at Backend.Controllers.Controller.<>c.<<RegisterAuthEndpoints>b__0_1>d.MoveNext() in C:\Users\Kenisank\Desktop\ToDoApps\FullApp_TodoApp\Backend\Controllers\Controller.cs:line 85
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-16 14:12:25.193 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7220/api/auth/login - 500 null text/plain; charset=utf-8 67033.2347ms
+2024-08-16 14:18:39.475 +01:00 [INF] User profile is available. Using 'C:\Users\Kenisank\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-16 14:18:39.993 +01:00 [INF] Now listening on: https://localhost:7220
+2024-08-16 14:18:39.994 +01:00 [INF] Now listening on: http://localhost:5011
+2024-08-16 14:18:39.996 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-16 14:18:39.997 +01:00 [INF] Hosting environment: Development
+2024-08-16 14:18:39.998 +01:00 [INF] Content root path: C:\Users\Kenisank\Desktop\ToDoApps\FullApp_TodoApp\Backend
+2024-08-16 14:18:40.660 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-08-16 14:18:41.101 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 446.5974ms
+2024-08-16 14:18:41.660 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-16 14:18:41.660 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-08-16 14:18:41.674 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 14.4741ms
+2024-08-16 14:18:41.743 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 82.9724ms
+2024-08-16 14:18:42.368 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-08-16 14:18:42.378 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-08-16 14:18:42.668 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 299.8998ms
+2024-08-16 14:19:14.576 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7220/api/auth/login - application/json 73
+2024-08-16 14:19:14.600 +01:00 [INF] CORS policy execution failed.
+2024-08-16 14:19:14.602 +01:00 [INF] Request origin https://localhost:7220 does not have permission to access the resource.
+2024-08-16 14:19:14.682 +01:00 [INF] Executing endpoint 'HTTP: POST /api/auth/login'
+2024-08-16 14:19:14.882 +01:00 [INF] User login attempt for Ttesttodo5
+2024-08-16 14:19:16.484 +01:00 [INF] Executed DbCommand (79ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-08-16 14:19:46.413 +01:00 [INF] User Ttesttodo5 logged in successfully.
+2024-08-16 14:19:48.463 +01:00 [INF] Executed DbCommand (32ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 14:19:50.795 +01:00 [INF] Setting HTTP status code 200.
+2024-08-16 14:19:50.802 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-08-16 14:19:50.856 +01:00 [INF] Executed endpoint 'HTTP: POST /api/auth/login'
+2024-08-16 14:19:50.869 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7220/api/auth/login - 200 null application/json; charset=utf-8 36294.0948ms
+2024-08-16 14:20:14.969 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/auth/login - null null
+2024-08-16 14:20:14.982 +01:00 [INF] CORS policy execution successful.
+2024-08-16 14:20:14.986 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/auth/login - 204 null null 16.6355ms
+2024-08-16 14:20:14.990 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7220/api/auth/login - application/json 64
+2024-08-16 14:20:14.996 +01:00 [INF] CORS policy execution successful.
+2024-08-16 14:20:15.001 +01:00 [INF] Executing endpoint 'HTTP: POST /api/auth/login'
+2024-08-16 14:20:15.005 +01:00 [INF] User login attempt for Ttesttodo5
+2024-08-16 14:20:15.072 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-08-16 14:20:20.509 +01:00 [INF] User Ttesttodo5 logged in successfully.
+2024-08-16 14:20:20.523 +01:00 [INF] Executed DbCommand (10ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 14:20:20.529 +01:00 [INF] Setting HTTP status code 200.
+2024-08-16 14:20:20.532 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-08-16 14:20:20.535 +01:00 [INF] Executed endpoint 'HTTP: POST /api/auth/login'
+2024-08-16 14:20:20.537 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7220/api/auth/login - 200 null application/json; charset=utf-8 5547.6723ms
+2024-08-16 14:24:37.806 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/api/todos - null null
+2024-08-16 14:24:37.834 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-08-16 14:24:37.841 +01:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-08-16 14:24:37.845 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/api/todos - 401 0 null 39.4661ms
+2024-08-16 14:29:03.567 +01:00 [INF] User profile is available. Using 'C:\Users\Kenisank\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-16 14:29:04.007 +01:00 [INF] Now listening on: https://localhost:7220
+2024-08-16 14:29:04.009 +01:00 [INF] Now listening on: http://localhost:5011
+2024-08-16 14:29:04.012 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-16 14:29:04.014 +01:00 [INF] Hosting environment: Development
+2024-08-16 14:29:04.015 +01:00 [INF] Content root path: C:\Users\Kenisank\Desktop\ToDoApps\FullApp_TodoApp\Backend
+2024-08-16 14:29:04.519 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-08-16 14:29:04.916 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 402.2872ms
+2024-08-16 14:29:05.448 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-08-16 14:29:05.448 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-16 14:29:05.462 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 14.6193ms
+2024-08-16 14:29:05.518 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 70.2464ms
+2024-08-16 14:29:06.112 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-08-16 14:29:06.120 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-08-16 14:29:06.376 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 264.8158ms
+2024-08-16 14:30:01.709 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/api/todos - null null
+2024-08-16 14:30:01.820 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-08-16 14:30:01.825 +01:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-08-16 14:30:01.827 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/api/todos - 401 0 null 119.0991ms
+2024-08-16 14:30:26.997 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/api/todos - null null
+2024-08-16 14:30:27.097 +01:00 [INF] Executing endpoint 'HTTP: GET /api/todos'
+2024-08-16 14:30:27.372 +01:00 [INF] Fetching todos for user null
+2024-08-16 14:30:29.000 +01:00 [INF] Executed DbCommand (56ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CreatedDate], [t].[Description], [t].[IsCompleted], [t].[ModifiedDate], [t].[Title], [t].[UserId]
+FROM [TodoItems] AS [t]
+WHERE 0 = 1
+2024-08-16 14:30:29.244 +01:00 [INF] Executed DbCommand (44ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 14:30:29.305 +01:00 [ERR] An exception occurred in the database while saving changes for context type 'TodoDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'User', table 'TodoDb.dbo.Audits'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:1b476028-0310-4825-a498-a0cc38fac764
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'User', table 'TodoDb.dbo.Audits'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:1b476028-0310-4825-a498-a0cc38fac764
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2024-08-16 14:30:29.519 +01:00 [INF] Executed endpoint 'HTTP: GET /api/todos'
+2024-08-16 14:30:29.524 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'User', table 'TodoDb.dbo.Audits'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:1b476028-0310-4825-a498-a0cc38fac764
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Backend.Services.AuditService.LogActionAsync(String action, String user, String details) in C:\Users\Kenisank\Desktop\ToDoApps\FullApp_TodoApp\Backend\Services\AuditService.cs:line 25
+   at Backend.Controllers.Controller.<>c.<<RegisterAuthEndpoints>b__0_2>d.MoveNext() in C:\Users\Kenisank\Desktop\ToDoApps\FullApp_TodoApp\Backend\Controllers\Controller.cs:line 111
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-16 14:30:29.571 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/api/todos - 500 null text/plain; charset=utf-8 2573.7165ms
+2024-08-16 14:34:58.577 +01:00 [INF] User profile is available. Using 'C:\Users\Kenisank\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-16 14:34:58.973 +01:00 [INF] Now listening on: https://localhost:7220
+2024-08-16 14:34:58.975 +01:00 [INF] Now listening on: http://localhost:5011
+2024-08-16 14:34:58.978 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-16 14:34:58.979 +01:00 [INF] Hosting environment: Development
+2024-08-16 14:34:58.982 +01:00 [INF] Content root path: C:\Users\Kenisank\Desktop\ToDoApps\FullApp_TodoApp\Backend
+2024-08-16 14:34:59.651 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-08-16 14:35:00.050 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 402.8327ms
+2024-08-16 14:35:00.615 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-16 14:35:00.616 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-08-16 14:35:00.633 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 17.7297ms
+2024-08-16 14:35:00.701 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 85.6111ms
+2024-08-16 14:35:01.279 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-08-16 14:35:01.288 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-08-16 14:35:01.559 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 280.0188ms
+2024-08-16 14:36:32.868 +01:00 [INF] User profile is available. Using 'C:\Users\Kenisank\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-16 14:36:33.277 +01:00 [INF] Now listening on: https://localhost:7220
+2024-08-16 14:36:33.279 +01:00 [INF] Now listening on: http://localhost:5011
+2024-08-16 14:36:33.281 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-16 14:36:33.282 +01:00 [INF] Hosting environment: Development
+2024-08-16 14:36:33.282 +01:00 [INF] Content root path: C:\Users\Kenisank\Desktop\ToDoApps\FullApp_TodoApp\Backend
+2024-08-16 14:36:33.916 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-08-16 14:36:34.328 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 426.41ms
+2024-08-16 14:36:34.838 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-16 14:36:34.838 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-08-16 14:36:34.849 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 11.4129ms
+2024-08-16 14:36:34.912 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 74.5274ms
+2024-08-16 14:36:35.454 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-08-16 14:36:35.462 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-08-16 14:36:35.717 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 263.692ms
+2024-08-16 14:37:03.173 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7220/api/auth/login - application/json 73
+2024-08-16 14:37:03.198 +01:00 [INF] CORS policy execution failed.
+2024-08-16 14:37:03.203 +01:00 [INF] Request origin https://localhost:7220 does not have permission to access the resource.
+2024-08-16 14:37:03.276 +01:00 [INF] Executing endpoint 'HTTP: POST /api/auth/login'
+2024-08-16 14:37:03.460 +01:00 [INF] User login attempt for Ttesttodo5
+2024-08-16 14:37:04.865 +01:00 [INF] Executed DbCommand (73ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-08-16 14:37:12.875 +01:00 [INF] User Ttesttodo5 logged in successfully.
+2024-08-16 14:37:13.031 +01:00 [INF] Executed DbCommand (14ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 14:37:13.059 +01:00 [INF] Setting HTTP status code 200.
+2024-08-16 14:37:13.064 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-08-16 14:37:13.069 +01:00 [INF] Executed endpoint 'HTTP: POST /api/auth/login'
+2024-08-16 14:37:13.082 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7220/api/auth/login - 200 null application/json; charset=utf-8 9909.349ms
+2024-08-16 14:37:44.290 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/api/todos - null null
+2024-08-16 14:37:44.360 +01:00 [INF] Executing endpoint 'HTTP: GET /api/todos'
+2024-08-16 14:37:44.465 +01:00 [INF] Fetching todos for user null
+2024-08-16 14:40:23.963 +01:00 [INF] Fetching todos for user b948360d-7baf-4b10-9050-ac2b7bd92e70
+2024-08-16 14:40:26.029 +01:00 [INF] Executed DbCommand (68ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CreatedDate], [t].[Description], [t].[IsCompleted], [t].[ModifiedDate], [t].[Title], [t].[UserId]
+FROM [TodoItems] AS [t]
+WHERE [t].[UserId] = @__userId_0
+2024-08-16 14:40:31.433 +01:00 [INF] Executed DbCommand (54ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 14:40:36.306 +01:00 [INF] Setting HTTP status code 200.
+2024-08-16 14:40:36.310 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-08-16 14:40:36.312 +01:00 [INF] Executed endpoint 'HTTP: GET /api/todos'
+2024-08-16 14:40:36.316 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/api/todos - 200 null application/json; charset=utf-8 172026.566ms
+2024-08-16 14:45:30.836 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/api/todos - null null
+2024-08-16 14:45:30.898 +01:00 [INF] Executing endpoint 'HTTP: GET /api/todos'
+2024-08-16 14:45:34.017 +01:00 [INF] Fetching todos for user b948360d-7baf-4b10-9050-ac2b7bd92e70
+2024-08-16 14:45:34.653 +01:00 [INF] Executed DbCommand (14ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CreatedDate], [t].[Description], [t].[IsCompleted], [t].[ModifiedDate], [t].[Title], [t].[UserId]
+FROM [TodoItems] AS [t]
+WHERE [t].[UserId] = @__userId_0
+2024-08-16 14:45:35.340 +01:00 [INF] Executed DbCommand (14ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 14:45:38.856 +01:00 [INF] Setting HTTP status code 200.
+2024-08-16 14:45:38.860 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-08-16 14:45:38.864 +01:00 [INF] Executed endpoint 'HTTP: GET /api/todos'
+2024-08-16 14:45:38.869 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/api/todos - 200 null application/json; charset=utf-8 8033.2137ms
+2024-08-16 15:40:55.619 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/api//api/todos - null null
+2024-08-16 15:40:55.641 +01:00 [INF] CORS policy execution successful.
+2024-08-16 15:40:55.644 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/api//api/todos - 404 0 null 25.5941ms
+2024-08-16 15:40:55.658 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/api//api/todos - null null
+2024-08-16 15:40:55.667 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7220/api//api/todos, Response status code: 404
+2024-08-16 15:40:55.674 +01:00 [INF] CORS policy execution successful.
+2024-08-16 15:40:55.681 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/api//api/todos - 404 0 null 28.8453ms
+2024-08-16 15:40:55.704 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7220/api//api/todos, Response status code: 404
+2024-08-16 15:44:19.370 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/api//api/todos - null null
+2024-08-16 15:44:19.383 +01:00 [INF] CORS policy execution successful.
+2024-08-16 15:44:19.388 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/api//api/todos - 404 0 null 18.0301ms
+2024-08-16 15:44:19.403 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/api//api/todos - null null
+2024-08-16 15:44:19.417 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7220/api//api/todos, Response status code: 404
+2024-08-16 15:44:19.426 +01:00 [INF] CORS policy execution successful.
+2024-08-16 15:44:19.434 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/api//api/todos - 404 0 null 31.0215ms
+2024-08-16 15:44:19.441 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7220/api//api/todos, Response status code: 404
+2024-08-16 15:47:26.441 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/api//api/todos - null null
+2024-08-16 15:47:26.466 +01:00 [INF] CORS policy execution successful.
+2024-08-16 15:47:26.476 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/api//api/todos - 404 0 null 35.1407ms
+2024-08-16 15:47:26.512 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7220/api//api/todos, Response status code: 404
+2024-08-16 15:47:28.330 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/api//api/todos - null null
+2024-08-16 15:47:28.343 +01:00 [INF] CORS policy execution successful.
+2024-08-16 15:47:28.347 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/api//api/todos - 404 0 null 17.845ms
+2024-08-16 15:47:28.352 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7220/api//api/todos, Response status code: 404
+2024-08-16 15:47:29.265 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/api//api/todos - null null
+2024-08-16 15:47:29.293 +01:00 [INF] CORS policy execution successful.
+2024-08-16 15:47:29.294 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/api//api/todos - 404 0 null 30.0115ms
+2024-08-16 15:47:29.297 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7220/api//api/todos, Response status code: 404
+2024-08-16 15:47:30.134 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/api/api/todos - null null
+2024-08-16 15:47:30.146 +01:00 [INF] CORS policy execution successful.
+2024-08-16 15:47:30.148 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/api/api/todos - 404 0 null 13.8492ms
+2024-08-16 15:47:30.157 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7220/api/api/todos, Response status code: 404
+2024-08-16 15:47:58.941 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/api/api/todos - null null
+2024-08-16 15:47:59.002 +01:00 [INF] CORS policy execution successful.
+2024-08-16 15:47:59.004 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/api/api/todos - 404 0 null 62.7282ms
+2024-08-16 15:47:59.035 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7220/api/api/todos, Response status code: 404
+2024-08-16 15:49:48.368 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/api/api/todos - null null
+2024-08-16 15:49:48.371 +01:00 [INF] CORS policy execution successful.
+2024-08-16 15:49:48.372 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/api/api/todos - 404 0 null 4.2396ms
+2024-08-16 15:49:48.400 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7220/api/api/todos, Response status code: 404
+2024-08-16 15:49:56.895 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/api/todos - null null
+2024-08-16 15:49:56.899 +01:00 [INF] CORS policy execution successful.
+2024-08-16 15:49:56.916 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-08-16 15:49:56.929 +01:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-08-16 15:49:56.932 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/api/todos - 401 0 null 36.2394ms
+2024-08-16 15:58:16.557 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/api/todos - null null
+2024-08-16 15:58:16.579 +01:00 [INF] CORS policy execution successful.
+2024-08-16 15:58:16.583 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/api/todos - 204 null null 27.0639ms
+2024-08-16 15:58:16.588 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/api/api/todos - null null
+2024-08-16 15:58:16.591 +01:00 [INF] CORS policy execution successful.
+2024-08-16 15:58:16.597 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/api/api/todos - 404 0 null 9.4082ms
+2024-08-16 15:58:16.600 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7220/api/api/todos, Response status code: 404
+2024-08-16 16:09:23.575 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/api/todos - null null
+2024-08-16 16:09:23.597 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:09:23.599 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/api/todos - 204 null null 25.3755ms
+2024-08-16 16:09:23.613 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/api/api/todos - null null
+2024-08-16 16:09:23.617 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:09:23.619 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/api/api/todos - 404 0 null 6.2263ms
+2024-08-16 16:09:23.644 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7220/api/api/todos, Response status code: 404
+2024-08-16 16:09:49.306 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/api/todos - null null
+2024-08-16 16:09:49.322 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/api/todos - null null
+2024-08-16 16:09:49.339 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:09:49.345 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:09:49.346 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/api/todos - 204 null null 40.8532ms
+2024-08-16 16:09:49.351 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/api/todos - 204 null null 28.7239ms
+2024-08-16 16:09:49.364 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/api/api/todos - null null
+2024-08-16 16:09:49.368 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:09:49.371 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/api/api/todos - 404 0 null 6.7797ms
+2024-08-16 16:09:49.380 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/api/api/todos - null null
+2024-08-16 16:09:49.385 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7220/api/api/todos, Response status code: 404
+2024-08-16 16:09:49.467 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:09:49.470 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/api/api/todos - 404 0 null 89.6384ms
+2024-08-16 16:09:49.476 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7220/api/api/todos, Response status code: 404
+2024-08-16 16:10:04.572 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/todos - null null
+2024-08-16 16:10:04.579 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:10:04.582 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/todos - 204 null null 9.986ms
+2024-08-16 16:10:04.591 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/api/todos - null null
+2024-08-16 16:10:04.607 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:10:04.611 +01:00 [INF] Executing endpoint 'HTTP: GET /api/todos'
+2024-08-16 16:10:14.451 +01:00 [INF] Fetching todos for user b948360d-7baf-4b10-9050-ac2b7bd92e70
+2024-08-16 16:10:15.793 +01:00 [INF] Executed DbCommand (11ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CreatedDate], [t].[Description], [t].[IsCompleted], [t].[ModifiedDate], [t].[Title], [t].[UserId]
+FROM [TodoItems] AS [t]
+WHERE [t].[UserId] = @__userId_0
+2024-08-16 16:10:16.568 +01:00 [INF] Executed DbCommand (13ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 16:10:19.881 +01:00 [INF] Setting HTTP status code 200.
+2024-08-16 16:10:19.883 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-08-16 16:10:19.885 +01:00 [INF] Executed endpoint 'HTTP: GET /api/todos'
+2024-08-16 16:10:19.887 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/api/todos - 200 null application/json; charset=utf-8 15295.8052ms
+2024-08-16 16:11:40.595 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/todos - null null
+2024-08-16 16:11:40.612 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:11:40.614 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/todos - 204 null null 19.5036ms
+2024-08-16 16:11:40.619 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/api/todos - null null
+2024-08-16 16:11:40.626 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:11:40.628 +01:00 [INF] Executing endpoint 'HTTP: GET /api/todos'
+2024-08-16 16:12:09.092 +01:00 [INF] Fetching todos for user b948360d-7baf-4b10-9050-ac2b7bd92e70
+2024-08-16 16:12:09.812 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/todos - null null
+2024-08-16 16:12:09.812 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/todos - null null
+2024-08-16 16:12:09.833 +01:00 [INF] Executed DbCommand (19ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CreatedDate], [t].[Description], [t].[IsCompleted], [t].[ModifiedDate], [t].[Title], [t].[UserId]
+FROM [TodoItems] AS [t]
+WHERE [t].[UserId] = @__userId_0
+2024-08-16 16:12:09.833 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/api/todos - null null
+2024-08-16 16:12:09.838 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:12:21.301 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:12:21.302 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/todos - 499 null null 11490.707ms
+2024-08-16 16:12:09.833 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:12:21.382 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/todos - null null
+2024-08-16 16:12:21.383 +01:00 [INF] Executing endpoint 'HTTP: GET /api/todos'
+2024-08-16 16:12:09.834 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/todos - null null
+2024-08-16 16:12:21.396 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:12:21.391 +01:00 [INF] Executed DbCommand (89ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CreatedDate], [t].[Description], [t].[IsCompleted], [t].[ModifiedDate], [t].[Title], [t].[UserId]
+FROM [TodoItems] AS [t]
+WHERE [t].[UserId] = @__userId_0
+2024-08-16 16:12:26.969 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/todos - 204 null null 5587.3207ms
+2024-08-16 16:12:26.969 +01:00 [INF] Fetching todos for user b948360d-7baf-4b10-9050-ac2b7bd92e70
+2024-08-16 16:12:21.393 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/todos - 499 null null 11580.9799ms
+2024-08-16 16:12:26.968 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:12:25.875 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/todos - null null
+2024-08-16 16:12:33.047 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/todos - 204 null null 23212.4447ms
+2024-08-16 16:12:33.051 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:12:33.056 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/todos - 204 null null 7181.0123ms
+2024-08-16 16:12:32.968 +01:00 [INF] Executed DbCommand (7ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 16:12:38.469 +01:00 [INF] Setting HTTP status code 200.
+2024-08-16 16:12:38.544 +01:00 [INF] Executed DbCommand (75ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CreatedDate], [t].[Description], [t].[IsCompleted], [t].[ModifiedDate], [t].[Title], [t].[UserId]
+FROM [TodoItems] AS [t]
+WHERE [t].[UserId] = @__userId_0
+2024-08-16 16:12:38.547 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-08-16 16:12:39.484 +01:00 [INF] Executed endpoint 'HTTP: GET /api/todos'
+2024-08-16 16:12:39.484 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 16:12:39.489 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/api/todos - 499 null application/json; charset=utf-8 58870.4111ms
+2024-08-16 16:12:41.355 +01:00 [INF] Setting HTTP status code 200.
+2024-08-16 16:12:41.366 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-08-16 16:12:41.367 +01:00 [INF] Executed endpoint 'HTTP: GET /api/todos'
+2024-08-16 16:12:41.369 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/api/todos - 200 null application/json; charset=utf-8 31536.6922ms
+2024-08-16 16:12:41.370 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/api/todos - null null
+2024-08-16 16:12:41.381 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:12:41.383 +01:00 [INF] Executing endpoint 'HTTP: GET /api/todos'
+2024-08-16 16:12:42.811 +01:00 [INF] Fetching todos for user b948360d-7baf-4b10-9050-ac2b7bd92e70
+2024-08-16 16:12:43.470 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CreatedDate], [t].[Description], [t].[IsCompleted], [t].[ModifiedDate], [t].[Title], [t].[UserId]
+FROM [TodoItems] AS [t]
+WHERE [t].[UserId] = @__userId_0
+2024-08-16 16:12:44.215 +01:00 [INF] Executed DbCommand (11ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 16:12:45.554 +01:00 [INF] Setting HTTP status code 200.
+2024-08-16 16:12:45.557 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-08-16 16:12:45.559 +01:00 [INF] Executed endpoint 'HTTP: GET /api/todos'
+2024-08-16 16:12:45.562 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/api/todos - null null
+2024-08-16 16:12:45.563 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/api/todos - 200 null application/json; charset=utf-8 4192.7649ms
+2024-08-16 16:12:45.566 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:12:45.578 +01:00 [INF] Executing endpoint 'HTTP: GET /api/todos'
+2024-08-16 16:12:46.789 +01:00 [INF] Fetching todos for user b948360d-7baf-4b10-9050-ac2b7bd92e70
+2024-08-16 16:12:47.346 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CreatedDate], [t].[Description], [t].[IsCompleted], [t].[ModifiedDate], [t].[Title], [t].[UserId]
+FROM [TodoItems] AS [t]
+WHERE [t].[UserId] = @__userId_0
+2024-08-16 16:12:47.953 +01:00 [INF] Executed DbCommand (10ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 16:12:49.035 +01:00 [INF] Setting HTTP status code 200.
+2024-08-16 16:12:49.038 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-08-16 16:12:49.041 +01:00 [INF] Executed endpoint 'HTTP: GET /api/todos'
+2024-08-16 16:12:49.044 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/api/todos - 200 null application/json; charset=utf-8 3481.7802ms
+2024-08-16 16:12:49.045 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/api/todos - null null
+2024-08-16 16:12:49.052 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:12:49.053 +01:00 [INF] Executing endpoint 'HTTP: GET /api/todos'
+2024-08-16 16:12:50.477 +01:00 [INF] Fetching todos for user b948360d-7baf-4b10-9050-ac2b7bd92e70
+2024-08-16 16:12:51.047 +01:00 [INF] Executed DbCommand (51ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CreatedDate], [t].[Description], [t].[IsCompleted], [t].[ModifiedDate], [t].[Title], [t].[UserId]
+FROM [TodoItems] AS [t]
+WHERE [t].[UserId] = @__userId_0
+2024-08-16 16:12:51.499 +01:00 [INF] Executed DbCommand (9ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 16:12:52.245 +01:00 [INF] Setting HTTP status code 200.
+2024-08-16 16:12:52.248 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-08-16 16:12:52.251 +01:00 [INF] Executed endpoint 'HTTP: GET /api/todos'
+2024-08-16 16:12:52.252 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/api/todos - 200 null application/json; charset=utf-8 3207.2228ms
+2024-08-16 16:13:10.544 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/todos - null null
+2024-08-16 16:13:10.544 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/todos - null null
+2024-08-16 16:13:10.550 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:13:10.553 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/todos - 204 null null 8.9116ms
+2024-08-16 16:13:10.547 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:13:10.559 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/todos - 204 null null 15.2519ms
+2024-08-16 16:13:10.576 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/api/todos - null null
+2024-08-16 16:13:10.579 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:13:10.581 +01:00 [INF] Executing endpoint 'HTTP: GET /api/todos'
+2024-08-16 16:13:22.481 +01:00 [INF] Fetching todos for user b948360d-7baf-4b10-9050-ac2b7bd92e70
+2024-08-16 16:13:26.781 +01:00 [INF] Executed DbCommand (44ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CreatedDate], [t].[Description], [t].[IsCompleted], [t].[ModifiedDate], [t].[Title], [t].[UserId]
+FROM [TodoItems] AS [t]
+WHERE [t].[UserId] = @__userId_0
+2024-08-16 16:13:30.622 +01:00 [INF] Executed DbCommand (45ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 16:13:30.622 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/api/todos - null null
+2024-08-16 16:13:31.450 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:13:31.505 +01:00 [INF] Executing endpoint 'HTTP: GET /api/todos'
+2024-08-16 16:13:32.871 +01:00 [INF] Setting HTTP status code 200.
+2024-08-16 16:13:37.003 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-08-16 16:13:37.005 +01:00 [INF] Executed endpoint 'HTTP: GET /api/todos'
+2024-08-16 16:13:37.002 +01:00 [INF] Fetching todos for user b948360d-7baf-4b10-9050-ac2b7bd92e70
+2024-08-16 16:13:37.007 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/api/todos - 200 null application/json; charset=utf-8 26431.3713ms
+2024-08-16 16:13:37.802 +01:00 [INF] Executed DbCommand (30ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CreatedDate], [t].[Description], [t].[IsCompleted], [t].[ModifiedDate], [t].[Title], [t].[UserId]
+FROM [TodoItems] AS [t]
+WHERE [t].[UserId] = @__userId_0
+2024-08-16 16:13:38.564 +01:00 [INF] Executed DbCommand (12ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 16:13:45.716 +01:00 [INF] Setting HTTP status code 200.
+2024-08-16 16:13:45.717 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-08-16 16:13:45.720 +01:00 [INF] Executed endpoint 'HTTP: GET /api/todos'
+2024-08-16 16:13:45.722 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/api/todos - 200 null application/json; charset=utf-8 15099.636ms
+2024-08-16 16:14:48.571 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/todos - null null
+2024-08-16 16:14:48.586 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:14:48.588 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/todos - 204 null null 17.1718ms
+2024-08-16 16:14:48.594 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/api/todos - null null
+2024-08-16 16:14:48.610 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:14:48.612 +01:00 [INF] Executing endpoint 'HTTP: GET /api/todos'
+2024-08-16 16:14:48.616 +01:00 [INF] Fetching todos for user b948360d-7baf-4b10-9050-ac2b7bd92e70
+2024-08-16 16:14:48.624 +01:00 [INF] Executed DbCommand (5ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CreatedDate], [t].[Description], [t].[IsCompleted], [t].[ModifiedDate], [t].[Title], [t].[UserId]
+FROM [TodoItems] AS [t]
+WHERE [t].[UserId] = @__userId_0
+2024-08-16 16:14:48.643 +01:00 [INF] Executed DbCommand (11ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 16:14:48.651 +01:00 [INF] Setting HTTP status code 200.
+2024-08-16 16:14:48.652 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-08-16 16:14:48.657 +01:00 [INF] Executed endpoint 'HTTP: GET /api/todos'
+2024-08-16 16:14:48.659 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/api/todos - 200 null application/json; charset=utf-8 65.6975ms
+2024-08-16 16:16:35.559 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/todos - null null
+2024-08-16 16:16:35.574 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:16:35.575 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/todos - 204 null null 16.7909ms
+2024-08-16 16:16:35.590 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/api/todos - null null
+2024-08-16 16:16:35.602 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:16:35.606 +01:00 [INF] Executing endpoint 'HTTP: GET /api/todos'
+2024-08-16 16:16:35.611 +01:00 [INF] Fetching todos for user b948360d-7baf-4b10-9050-ac2b7bd92e70
+2024-08-16 16:16:35.621 +01:00 [INF] Executed DbCommand (5ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CreatedDate], [t].[Description], [t].[IsCompleted], [t].[ModifiedDate], [t].[Title], [t].[UserId]
+FROM [TodoItems] AS [t]
+WHERE [t].[UserId] = @__userId_0
+2024-08-16 16:16:35.631 +01:00 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 16:16:35.636 +01:00 [INF] Setting HTTP status code 200.
+2024-08-16 16:16:35.638 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-08-16 16:16:35.640 +01:00 [INF] Executed endpoint 'HTTP: GET /api/todos'
+2024-08-16 16:16:35.643 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/api/todos - 200 null application/json; charset=utf-8 55.4562ms
+2024-08-16 16:19:01.567 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/todos - null null
+2024-08-16 16:19:01.584 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:19:01.585 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/todos - 204 null null 17.6847ms
+2024-08-16 16:19:01.633 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/api/todos - null null
+2024-08-16 16:19:01.647 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:19:01.652 +01:00 [INF] Executing endpoint 'HTTP: GET /api/todos'
+2024-08-16 16:19:01.655 +01:00 [INF] Fetching todos for user b948360d-7baf-4b10-9050-ac2b7bd92e70
+2024-08-16 16:19:01.661 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CreatedDate], [t].[Description], [t].[IsCompleted], [t].[ModifiedDate], [t].[Title], [t].[UserId]
+FROM [TodoItems] AS [t]
+WHERE [t].[UserId] = @__userId_0
+2024-08-16 16:19:01.671 +01:00 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 16:19:01.681 +01:00 [INF] Setting HTTP status code 200.
+2024-08-16 16:19:01.683 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-08-16 16:19:01.685 +01:00 [INF] Executed endpoint 'HTTP: GET /api/todos'
+2024-08-16 16:19:01.690 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/api/todos - 200 null application/json; charset=utf-8 58.0204ms
+2024-08-16 16:21:21.555 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/todos - null null
+2024-08-16 16:21:21.558 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:21:21.559 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/todos - 204 null null 4.2285ms
+2024-08-16 16:21:21.563 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/api/todos - null null
+2024-08-16 16:21:21.568 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:21:21.569 +01:00 [INF] Executing endpoint 'HTTP: GET /api/todos'
+2024-08-16 16:21:21.572 +01:00 [INF] Fetching todos for user b948360d-7baf-4b10-9050-ac2b7bd92e70
+2024-08-16 16:21:25.360 +01:00 [INF] Executed DbCommand (8ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CreatedDate], [t].[Description], [t].[IsCompleted], [t].[ModifiedDate], [t].[Title], [t].[UserId]
+FROM [TodoItems] AS [t]
+WHERE [t].[UserId] = @__userId_0
+2024-08-16 16:21:26.327 +01:00 [INF] Executed DbCommand (12ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 16:21:27.094 +01:00 [INF] Setting HTTP status code 200.
+2024-08-16 16:21:27.096 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-08-16 16:21:27.099 +01:00 [INF] Executed endpoint 'HTTP: GET /api/todos'
+2024-08-16 16:21:27.103 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/api/todos - 200 null application/json; charset=utf-8 5540.4587ms
+2024-08-16 16:43:29.685 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/todos - null null
+2024-08-16 16:43:29.685 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/todos - null null
+2024-08-16 16:43:29.707 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:43:29.710 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:43:29.712 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/todos - 204 null null 26.9226ms
+2024-08-16 16:43:29.764 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/todos - 204 null null 78.6181ms
+2024-08-16 16:43:29.756 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/api/todos - null null
+2024-08-16 16:43:29.802 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:43:29.804 +01:00 [INF] Executing endpoint 'HTTP: GET /api/todos'
+2024-08-16 16:43:29.808 +01:00 [INF] Fetching todos for user b948360d-7baf-4b10-9050-ac2b7bd92e70
+2024-08-16 16:43:32.893 +01:00 [INF] Executed DbCommand (14ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CreatedDate], [t].[Description], [t].[IsCompleted], [t].[ModifiedDate], [t].[Title], [t].[UserId]
+FROM [TodoItems] AS [t]
+WHERE [t].[UserId] = @__userId_0
+2024-08-16 16:43:34.121 +01:00 [INF] Executed DbCommand (13ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 16:43:34.921 +01:00 [INF] Setting HTTP status code 200.
+2024-08-16 16:43:34.923 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-08-16 16:43:34.925 +01:00 [INF] Executed endpoint 'HTTP: GET /api/todos'
+2024-08-16 16:43:34.928 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/api/todos - 200 null application/json; charset=utf-8 5172.0961ms
+2024-08-16 16:43:34.932 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/api/todos - null null
+2024-08-16 16:43:34.935 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:43:34.937 +01:00 [INF] Executing endpoint 'HTTP: GET /api/todos'
+2024-08-16 16:43:34.939 +01:00 [INF] Fetching todos for user b948360d-7baf-4b10-9050-ac2b7bd92e70
+2024-08-16 16:43:36.756 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CreatedDate], [t].[Description], [t].[IsCompleted], [t].[ModifiedDate], [t].[Title], [t].[UserId]
+FROM [TodoItems] AS [t]
+WHERE [t].[UserId] = @__userId_0
+2024-08-16 16:43:37.643 +01:00 [INF] Executed DbCommand (10ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 16:43:47.807 +01:00 [INF] Setting HTTP status code 200.
+2024-08-16 16:43:47.810 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-08-16 16:43:47.812 +01:00 [INF] Executed endpoint 'HTTP: GET /api/todos'
+2024-08-16 16:43:47.814 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/api/todos - 200 null application/json; charset=utf-8 12881.5741ms
+2024-08-16 16:45:14.588 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/todos - null null
+2024-08-16 16:45:14.606 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:45:14.608 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/todos - 204 null null 20.6886ms
+2024-08-16 16:45:14.625 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/api/todos - null null
+2024-08-16 16:45:14.632 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:45:14.638 +01:00 [INF] Executing endpoint 'HTTP: GET /api/todos'
+2024-08-16 16:45:14.640 +01:00 [INF] Fetching todos for user b948360d-7baf-4b10-9050-ac2b7bd92e70
+2024-08-16 16:45:14.645 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CreatedDate], [t].[Description], [t].[IsCompleted], [t].[ModifiedDate], [t].[Title], [t].[UserId]
+FROM [TodoItems] AS [t]
+WHERE [t].[UserId] = @__userId_0
+2024-08-16 16:45:14.659 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 16:45:14.667 +01:00 [INF] Setting HTTP status code 200.
+2024-08-16 16:45:14.671 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-08-16 16:45:14.673 +01:00 [INF] Executed endpoint 'HTTP: GET /api/todos'
+2024-08-16 16:45:14.676 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/api/todos - 200 null application/json; charset=utf-8 54.1844ms
+2024-08-16 16:54:25.554 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/todos - null null
+2024-08-16 16:54:25.571 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/todos - null null
+2024-08-16 16:54:25.589 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:54:25.592 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:54:25.594 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/todos - 204 null null 40.0925ms
+2024-08-16 16:54:25.599 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/api/todos - null null
+2024-08-16 16:54:25.595 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/todos - 204 null null 24.0789ms
+2024-08-16 16:54:25.620 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:54:25.628 +01:00 [INF] Executing endpoint 'HTTP: GET /api/todos'
+2024-08-16 16:54:25.632 +01:00 [INF] Fetching todos for user b948360d-7baf-4b10-9050-ac2b7bd92e70
+2024-08-16 16:54:25.718 +01:00 [INF] Executed DbCommand (15ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CreatedDate], [t].[Description], [t].[IsCompleted], [t].[ModifiedDate], [t].[Title], [t].[UserId]
+FROM [TodoItems] AS [t]
+WHERE [t].[UserId] = @__userId_0
+2024-08-16 16:54:25.727 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 16:54:25.741 +01:00 [INF] Setting HTTP status code 200.
+2024-08-16 16:54:25.744 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-08-16 16:54:25.746 +01:00 [INF] Executed endpoint 'HTTP: GET /api/todos'
+2024-08-16 16:54:25.762 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/api/todos - null null
+2024-08-16 16:54:25.774 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:54:25.765 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/api/todos - 200 null application/json; charset=utf-8 165.5924ms
+2024-08-16 16:54:25.776 +01:00 [INF] Executing endpoint 'HTTP: GET /api/todos'
+2024-08-16 16:54:25.791 +01:00 [INF] Fetching todos for user b948360d-7baf-4b10-9050-ac2b7bd92e70
+2024-08-16 16:54:25.795 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CreatedDate], [t].[Description], [t].[IsCompleted], [t].[ModifiedDate], [t].[Title], [t].[UserId]
+FROM [TodoItems] AS [t]
+WHERE [t].[UserId] = @__userId_0
+2024-08-16 16:54:25.841 +01:00 [INF] Executed DbCommand (11ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 16:54:25.855 +01:00 [INF] Setting HTTP status code 200.
+2024-08-16 16:54:25.857 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-08-16 16:54:25.859 +01:00 [INF] Executed endpoint 'HTTP: GET /api/todos'
+2024-08-16 16:54:25.865 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/api/todos - 200 null application/json; charset=utf-8 103.0481ms
+2024-08-16 16:55:24.144 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/auth/login - null null
+2024-08-16 16:55:24.176 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:55:24.177 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/auth/login - 204 null null 33.132ms
+2024-08-16 16:55:24.211 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7220/api/auth/login - application/json 64
+2024-08-16 16:55:24.223 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:55:24.224 +01:00 [INF] Executing endpoint 'HTTP: POST /api/auth/login'
+2024-08-16 16:55:24.236 +01:00 [INF] User login attempt for Ttesttodo5
+2024-08-16 16:55:24.259 +01:00 [INF] Executed DbCommand (19ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-08-16 16:55:31.655 +01:00 [INF] User Ttesttodo5 logged in successfully.
+2024-08-16 16:55:31.673 +01:00 [INF] Executed DbCommand (15ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 16:55:31.679 +01:00 [INF] Setting HTTP status code 200.
+2024-08-16 16:55:31.683 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-08-16 16:55:31.689 +01:00 [INF] Executed endpoint 'HTTP: POST /api/auth/login'
+2024-08-16 16:55:31.692 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7220/api/auth/login - 200 null application/json; charset=utf-8 7482.0331ms
+2024-08-16 16:55:31.762 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/todos - null null
+2024-08-16 16:55:31.765 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/todos - null null
+2024-08-16 16:55:31.768 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:55:31.771 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:55:31.772 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/todos - 204 null null 10.7157ms
+2024-08-16 16:55:31.774 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/todos - 204 null null 9.1372ms
+2024-08-16 16:55:31.781 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/api/todos - null null
+2024-08-16 16:55:31.828 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:55:31.830 +01:00 [INF] Executing endpoint 'HTTP: GET /api/todos'
+2024-08-16 16:55:31.832 +01:00 [INF] Fetching todos for user b948360d-7baf-4b10-9050-ac2b7bd92e70
+2024-08-16 16:55:31.838 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CreatedDate], [t].[Description], [t].[IsCompleted], [t].[ModifiedDate], [t].[Title], [t].[UserId]
+FROM [TodoItems] AS [t]
+WHERE [t].[UserId] = @__userId_0
+2024-08-16 16:55:31.850 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 16:55:31.864 +01:00 [INF] Setting HTTP status code 200.
+2024-08-16 16:55:31.866 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-08-16 16:55:31.868 +01:00 [INF] Executed endpoint 'HTTP: GET /api/todos'
+2024-08-16 16:55:31.872 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/api/todos - null null
+2024-08-16 16:55:31.877 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/api/todos - 200 null application/json; charset=utf-8 95.7193ms
+2024-08-16 16:55:31.880 +01:00 [INF] CORS policy execution successful.
+2024-08-16 16:55:31.887 +01:00 [INF] Executing endpoint 'HTTP: GET /api/todos'
+2024-08-16 16:55:31.891 +01:00 [INF] Fetching todos for user b948360d-7baf-4b10-9050-ac2b7bd92e70
+2024-08-16 16:55:31.897 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CreatedDate], [t].[Description], [t].[IsCompleted], [t].[ModifiedDate], [t].[Title], [t].[UserId]
+FROM [TodoItems] AS [t]
+WHERE [t].[UserId] = @__userId_0
+2024-08-16 16:55:31.903 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-16 16:55:31.914 +01:00 [INF] Setting HTTP status code 200.
+2024-08-16 16:55:31.916 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-08-16 16:55:31.918 +01:00 [INF] Executed endpoint 'HTTP: GET /api/todos'
+2024-08-16 16:55:31.920 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/api/todos - 200 null application/json; charset=utf-8 48.8589ms

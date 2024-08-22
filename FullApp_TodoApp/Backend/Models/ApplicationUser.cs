@@ -1,8 +1,11 @@
 using Backend.Models;
 using Microsoft.AspNetCore.Identity;
 
-public class ApplicationUser: IdentityUser
+namespace Backend.Models
 {
-    
-    public ICollection<TodoItem> Todos { get; set; } = new List<TodoItem>();
+    public class ApplicationUser : IdentityUser
+    {
+
+        public ICollection<TodoItem> Todos { get; set; } = new List<TodoItem>();
+    }
 }

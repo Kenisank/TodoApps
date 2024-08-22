@@ -1,0 +1,186 @@
+$primary-color: #bc0308;
+$white: #fff;
+
+
+.container {
+  padding: 16px;
+  font-family: 'Trebuchet MS', sans-serif;
+  z-index: 1;
+}
+
+
+
+/* ---------------------------------
+Header Styles
+--------------------------------- */
+
+.header-container {
+display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 20px !important;
+  font-family: 'Trebuchet MS, sans-serif';
+  z-index: 1;
+  flex-direction: column;
+  width: 90%;
+}
+
+.top{
+  
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    font-family: 'Trebuchet MS, sans-serif';
+    z-index: 1;
+    width: 100%;
+    flex-direction: row;
+ 
+}
+
+.header  {
+  color: $primary-color;
+  font-weight: bold !important;
+  font-family: 'Trebuchet MS', sans-serif !important;
+  text-transform: uppercase;
+}
+
+.css-b543lt-MuiButtonBase-root-MuiButton-root:hover  {
+  background-color: $white !important ;
+  border: $primary-color 1px solid !important;
+  box-shadow: 0px 3px 1px -2px rgba(169, 26, 26, 0.2), 0px 2px 2px 0px rgba(111, 22, 22, 0.14), 0px 1px 5px 0px rgba(213, 34, 34, 0.12);
+
+
+}
+
+// .logout-button:hover {
+//   margin-left: 16px;
+//   font-family: 'Trebuchet MS', sans-serif;
+//   background-color: $white ;
+
+// }
+
+
+
+/* ---------------------------------
+Add Todo Item Styles
+--------------------------------- */
+
+.input{
+  display: flex;
+  width: 100%;
+  position: relative;
+  align-items: center;
+}
+
+.inputBox{
+  width: 100%;
+  border-radius: 5px;
+  font-size: 18px;
+  border: none;
+  transition: 0.2s;
+  box-shadow: inset 0 0 1px #000;
+  padding: 15px 20px;
+}
+
+.inputBox:active,
+.inputBox:focus {
+  outline: none; 
+  box-shadow: inset 0 0 2px #000; 
+}
+
+.addButton{
+// position: absolute;
+width: 50px;
+height: 50px;
+margin: 12px 5px;
+border-radius: 5px;
+right: 0px;
+border: none;
+font-size: 35px;
+background-color: $primary-color;
+color: $white;
+transition: 0.2s all;
+
+}
+
+.addButton:hover{
+  background-color: $white;
+color: $primary-color;
+cursor: pointer;
+box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+}
+
+.todoList{
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+  flex-wrap: wrap;
+  
+}
+
+.eachTodo{
+display: flex;
+width: 29.5%;
+border-radius: 5px;
+padding: 20px;
+margin-top: 15px;
+background-color: burlywood;
+}
+
+
+.eachTodoTitle{
+  flex: 1;
+  padding: 5px;
+  border: none;
+  font-size: 20px;
+}
+
+.eachTodoTitle:focus{
+  outline: none;
+}
+
+.icon{
+  margin-left: 10px;
+  font-size:25px;
+  cursor: pointer;
+  color: $primary-color;
+}
+
+
+.eachTodo.completed {
+  background-color: #85de85 !important; 
+}
+
+.eachTodo.reverse {
+  background-color: burlywood !important; 
+}
+
+@media (max-width:1200px) {
+  .eachTodo{
+    width: 40%;
+  }
+}
+
+
+@media(max-width:700px){
+  .input{
+    width: 95%;
+  }
+
+  .todoList{
+    width:95%;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  }
+
+  .eachTodo{
+    width: 80%;
+  }
+
+ 
+
+}

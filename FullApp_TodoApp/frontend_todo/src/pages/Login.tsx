@@ -28,7 +28,7 @@ const Login = () => {
     try {
       await login(username, password);
       log.info("Login successful", { username });
-      navigate("/todo"); 
+      navigate("/TodoDemo"); 
     } catch (err) {
       log.error("Login failed", { username, error: err });
       setError("Failed to login. Please check your credentials."); 

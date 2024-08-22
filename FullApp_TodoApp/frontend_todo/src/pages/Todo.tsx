@@ -3,7 +3,7 @@ import { List, ListItem, ListItemText, Divider, CircularProgress, Typography, Bo
 import todoService from "../services/todo.service";
 import { useAuth } from "../contexts/auth.context";
 import { useNavigate } from "react-router-dom"; 
-import "../styles/todo.style.css";
+import "../styles/todo.style.scss";
 import log from "../services/logger.service"; // Import the logger
 
 interface TodoItem {

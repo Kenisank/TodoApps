@@ -10,7 +10,7 @@ namespace Backend.Models
         [Required]
         public string Title { get; set; }
 
-        public string Description { get; set; }
+        public string? Description { get; set; } =string.Empty;
 
         [Display(Name = "Completed")]
         public bool IsCompleted { get; set; }

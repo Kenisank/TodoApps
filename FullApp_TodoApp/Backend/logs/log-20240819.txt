@@ -1,0 +1,109 @@
+2024-08-19 11:20:11.877 +01:00 [INF] User profile is available. Using 'C:\Users\Kenisank\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-19 11:20:12.669 +01:00 [INF] Now listening on: https://localhost:7220
+2024-08-19 11:20:12.675 +01:00 [INF] Now listening on: http://localhost:5011
+2024-08-19 11:20:12.679 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-19 11:20:12.683 +01:00 [INF] Hosting environment: Development
+2024-08-19 11:20:12.684 +01:00 [INF] Content root path: C:\Users\Kenisank\Desktop\ToDoApps\FullApp_TodoApp\Backend
+2024-08-19 11:20:13.993 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-08-19 11:20:15.296 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 1306.4772ms
+2024-08-19 11:20:15.990 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-19 11:20:16.087 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-08-19 11:20:16.148 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 158.5212ms
+2024-08-19 11:20:16.351 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 263.8481ms
+2024-08-19 11:20:20.581 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/todos - null null
+2024-08-19 11:20:20.581 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/todos - null null
+2024-08-19 11:20:20.596 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-08-19 11:20:20.611 +01:00 [INF] CORS policy execution successful.
+2024-08-19 11:20:20.619 +01:00 [INF] CORS policy execution successful.
+2024-08-19 11:20:20.635 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-08-19 11:20:20.629 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/todos - 204 null null 47.5946ms
+2024-08-19 11:20:20.637 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/todos - 204 null null 56.0284ms
+2024-08-19 11:20:20.637 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/api/todos - null null
+2024-08-19 11:20:20.885 +01:00 [INF] CORS policy execution successful.
+2024-08-19 11:20:21.173 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 582.1672ms
+2024-08-19 11:20:21.239 +01:00 [INF] Executing endpoint 'HTTP: GET /api/todos'
+2024-08-19 11:20:21.795 +01:00 [INF] Fetching todos for user b948360d-7baf-4b10-9050-ac2b7bd92e70
+2024-08-19 11:20:23.960 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/swagger/swagger-ui-bundle.js - null null
+2024-08-19 11:20:23.960 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/swagger/swagger-ui-standalone-preset.js - null null
+2024-08-19 11:20:23.980 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-19 11:20:23.981 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-08-19 11:20:24.101 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 121.2093ms
+2024-08-19 11:20:24.160 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-08-19 11:20:24.216 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-08-19 11:20:24.216 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 235.5171ms
+2024-08-19 11:20:24.222 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 261.8285ms
+2024-08-19 11:20:24.228 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 268.44ms
+2024-08-19 11:20:24.672 +01:00 [INF] Executed DbCommand (156ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CreatedDate], [t].[Description], [t].[IsCompleted], [t].[ModifiedDate], [t].[Title], [t].[UserId]
+FROM [TodoItems] AS [t]
+WHERE [t].[UserId] = @__userId_0
+2024-08-19 11:20:25.005 +01:00 [INF] Executed DbCommand (52ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-19 11:20:25.080 +01:00 [INF] Setting HTTP status code 200.
+2024-08-19 11:20:25.084 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-08-19 11:20:25.089 +01:00 [INF] Executed endpoint 'HTTP: GET /api/todos'
+2024-08-19 11:20:25.095 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/api/todos - null null
+2024-08-19 11:20:25.100 +01:00 [INF] CORS policy execution successful.
+2024-08-19 11:20:25.104 +01:00 [INF] Executing endpoint 'HTTP: GET /api/todos'
+2024-08-19 11:20:25.106 +01:00 [INF] Fetching todos for user b948360d-7baf-4b10-9050-ac2b7bd92e70
+2024-08-19 11:20:25.111 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/api/todos - 200 null application/json; charset=utf-8 4474.3636ms
+2024-08-19 11:20:25.137 +01:00 [INF] Executed DbCommand (6ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CreatedDate], [t].[Description], [t].[IsCompleted], [t].[ModifiedDate], [t].[Title], [t].[UserId]
+FROM [TodoItems] AS [t]
+WHERE [t].[UserId] = @__userId_0
+2024-08-19 11:20:25.162 +01:00 [INF] Executed DbCommand (15ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-19 11:20:25.168 +01:00 [INF] Setting HTTP status code 200.
+2024-08-19 11:20:25.170 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-08-19 11:20:25.172 +01:00 [INF] Executed endpoint 'HTTP: GET /api/todos'
+2024-08-19 11:20:25.181 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/api/todos - 200 null application/json; charset=utf-8 83.4616ms
+2024-08-19 11:54:18.190 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/todos - null null
+2024-08-19 11:54:18.190 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7220/api/todos - null null
+2024-08-19 11:54:18.201 +01:00 [INF] CORS policy execution successful.
+2024-08-19 11:54:18.201 +01:00 [INF] CORS policy execution successful.
+2024-08-19 11:54:18.203 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/todos - 204 null null 14.0612ms
+2024-08-19 11:54:18.215 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7220/api/todos - 204 null null 26.4796ms
+2024-08-19 11:54:18.220 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/api/todos - null null
+2024-08-19 11:54:18.235 +01:00 [INF] CORS policy execution successful.
+2024-08-19 11:54:18.242 +01:00 [INF] Executing endpoint 'HTTP: GET /api/todos'
+2024-08-19 11:54:18.252 +01:00 [INF] Fetching todos for user b948360d-7baf-4b10-9050-ac2b7bd92e70
+2024-08-19 11:54:18.461 +01:00 [INF] Executed DbCommand (12ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CreatedDate], [t].[Description], [t].[IsCompleted], [t].[ModifiedDate], [t].[Title], [t].[UserId]
+FROM [TodoItems] AS [t]
+WHERE [t].[UserId] = @__userId_0
+2024-08-19 11:54:18.473 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-19 11:54:18.483 +01:00 [INF] Setting HTTP status code 200.
+2024-08-19 11:54:18.487 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-08-19 11:54:18.498 +01:00 [INF] Executed endpoint 'HTTP: GET /api/todos'
+2024-08-19 11:54:18.516 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7220/api/todos - null null
+2024-08-19 11:54:18.519 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/api/todos - 200 null application/json; charset=utf-8 302.1712ms
+2024-08-19 11:54:18.522 +01:00 [INF] CORS policy execution successful.
+2024-08-19 11:54:18.552 +01:00 [INF] Executing endpoint 'HTTP: GET /api/todos'
+2024-08-19 11:54:18.589 +01:00 [INF] Fetching todos for user b948360d-7baf-4b10-9050-ac2b7bd92e70
+2024-08-19 11:54:18.607 +01:00 [INF] Executed DbCommand (13ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CreatedDate], [t].[Description], [t].[IsCompleted], [t].[ModifiedDate], [t].[Title], [t].[UserId]
+FROM [TodoItems] AS [t]
+WHERE [t].[UserId] = @__userId_0
+2024-08-19 11:54:18.672 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Audits] ([Action], [Details], [Timestamp], [User])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-08-19 11:54:18.835 +01:00 [INF] Setting HTTP status code 200.
+2024-08-19 11:54:18.837 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-08-19 11:54:18.850 +01:00 [INF] Executed endpoint 'HTTP: GET /api/todos'
+2024-08-19 11:54:18.857 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7220/api/todos - 200 null application/json; charset=utf-8 340.9078ms
